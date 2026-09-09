@@ -2,6 +2,12 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 0.1.2 — 2026-09-09
+
+### Added
+
+- README banner using Ariamir's original mark and warm graphite app palette.
+
 ## 0.1.1 — 2026-09-09
 
 ### Added

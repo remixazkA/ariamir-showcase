@@ -1,4 +1,6 @@
-# Ariamir
+<h1>
+  <img src="media/ariamir-banner.svg" alt="Ariamir — Local-first AI orchestration" width="1600">
+</h1>
 
 **Local-first AI orchestration, tool execution and heterogeneous compute — presented without exposing proprietary internals.**
 
