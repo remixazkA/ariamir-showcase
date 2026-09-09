@@ -13,6 +13,8 @@ This roadmap intentionally describes outcomes rather than proprietary implementa
 
 ## Next phase
 
+- Explore a dedicated enterprise-oriented Ariamir environment for controlled organizational deployments, security governance, auditability, infrastructure integration and multi-user workflows.
+
 - Broaden multi-model and multi-backend validation.
 - Add more repeatable workstation-level performance tests.
 - Expand heterogeneous-compute experiments, including FPGA-suitable workload classes.

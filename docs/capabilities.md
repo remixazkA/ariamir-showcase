@@ -39,3 +39,11 @@ Ariamir is developed on constrained local hardware, making VRAM, RAM, latency an
 ## Heterogeneous acceleration
 
 CPU and GPU are not assumed to be the only useful execution resources. FPGA and other accelerator evaluation focuses on workload classes where deterministic pipelines, streaming, specialised kernels or low-latency processing can provide value.
+
+## Enterprise environment
+
+**Status: Research / architecture exploration.**
+
+Ariamir is exploring a specialized environment for business and professional use cases. Areas under consideration include controlled organizational deployments, organizational security, permission governance, auditable workflows, enterprise infrastructure integration, multi-user workflows and scalable heterogeneous compute.
+
+These are exploration goals, not claims of an available Enterprise edition or validated enterprise capabilities. Public updates will describe scope and validation outcomes without exposing private deployment configuration, permission internals, customer data or proprietary implementation details.

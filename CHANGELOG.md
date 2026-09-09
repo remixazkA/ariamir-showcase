@@ -2,6 +2,12 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 0.1.1 — 2026-09-09
+
+### Added
+
+- Enterprise deployment exploration in the showcase, capability overview and roadmap, explicitly marked as research / architecture exploration.
+
 ## 0.1.0 — 2026-09-09
 
 ### Added

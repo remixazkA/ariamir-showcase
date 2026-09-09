@@ -18,6 +18,7 @@ Ariamir is an AI systems project focused on coordinating local models, tools, wo
 | Document Engine | Implemented; ongoing quality validation |
 | Local image workflows | Available in development builds |
 | Local video generation | Integration and validation stage |
+| Enterprise environment | Research / architecture exploration |
 | Hardware Compatibility Lab | Active |
 | Heterogeneous / FPGA acceleration | Exploration and partner-validation stage |
 
@@ -54,6 +55,12 @@ See [`docs/architecture-overview.md`](docs/architecture-overview.md) for the pub
 - Treat accelerators such as GPUs and FPGAs as heterogeneous resources for suitable workloads.
 
 More detail: [`docs/capabilities.md`](docs/capabilities.md).
+
+## Enterprise deployment exploration
+
+Ariamir is also exploring a specialized deployment environment aimed at business and professional use cases, with a focus on controlled deployments, organizational security, permission governance, auditable workflows, integration with enterprise infrastructure, and scalable heterogeneous compute.
+
+This work is at the research and architecture exploration stage. It does not represent an available Enterprise edition or validated enterprise security, compliance, scalability or multi-user capabilities.
 
 ## Hardware Compatibility Lab
 
