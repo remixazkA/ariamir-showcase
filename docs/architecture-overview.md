@@ -1,6 +1,6 @@
 # Architecture Overview
 
-This is the maximum intended architectural disclosure level for the public showcase.
+This is the maximum intended architectural disclosure level for the public showcase. The diagram summarizes conceptual system relationships, not implementation topology. Ariamir is unfinished; the diagram does not certify integration completeness or production readiness.
 
 ```mermaid
 flowchart TB
@@ -9,7 +9,11 @@ flowchart TB
     MODELS[Local Model Pool]
     WORKERS[Workers]
     TOOLS[Tool Layer]
-    DATA[Retrieval / Documents]
+    KNOWLEDGE[Knowledge]
+    GRAPH[Graph Workspace]
+    MEMORY[Memory]
+    DATA[Document Engine]
+    CODE[Code Intelligence]
     EXT[Connectors / External Services]
     RUNTIME[Local Runtime]
     HW[CPU / GPU / Accelerators]
@@ -18,7 +22,11 @@ flowchart TB
     F --> MODELS
     F --> WORKERS
     F --> TOOLS
+    F --> KNOWLEDGE
+    F --> MEMORY
+    KNOWLEDGE --> GRAPH
     TOOLS --> DATA
+    TOOLS --> CODE
     TOOLS --> EXT
     TOOLS --> RUNTIME
     MODELS --> HW
@@ -33,10 +41,16 @@ flowchart TB
 - **Local Model Pool:** provides model inference resources.
 - **Workers:** execute bounded roles within larger workflows.
 - **Tool Layer:** exposes permitted capabilities to the system.
-- **Retrieval / Documents:** supplies knowledge and document-oriented operations.
+- **Knowledge:** organizes and retrieves project knowledge, with reviewable learning proposals.
+- **Graph Workspace:** provides visual exploration of relationships and optional cross-system views.
+- **Memory:** supports conversational continuity and preferences separately from Knowledge.
+- **Document Engine:** handles document analysis, generation and quality review.
+- **Code Intelligence:** supports code exploration, diagnostics and reviewable changes.
 - **Connectors / External Services:** integrates supported external systems where authorised.
 - **Local Runtime:** executes local tools and processing workloads.
 - **CPU / GPU / Accelerators:** provide heterogeneous compute resources.
+
+Tool Lab and modules extend capabilities; Bridge / MCP and configured connectors expose supported integrations. Projects, tasks, artifacts and the desktop application provide the surrounding workspace. The [system catalog](capabilities.md) also covers diagnostics, distribution, local media and exploratory platform work.
 
 ## Explicitly out of scope for public architecture
 
