@@ -1,0 +1,64 @@
+name: Hardware Compatibility Report
+description: Report a reproducible Ariamir hardware compatibility result
+title: "[Hardware] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing compatibility evidence. Do not include credentials, private paths, serial numbers, private prompts or personal data.
+  - type: input
+    id: component
+    attributes:
+      label: Component
+      description: Vendor and exact model where possible.
+      placeholder: "Example: GPU / FPGA / SSD — vendor model"
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Host configuration
+      description: CPU, GPU/accelerator and system RAM relevant to the test.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Driver / firmware / backend versions
+      description: Include only versions that materially affect reproducibility.
+  - type: textarea
+    id: workload
+    attributes:
+      label: Workload
+      description: Describe the public or synthetic workload and the steps used.
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Compatibility result
+      options:
+        - Works as expected
+        - Works with caveats
+        - Partially works
+        - Does not work
+        - Needs further validation
+    validations:
+      required: true
+  - type: textarea
+    id: observations
+    attributes:
+      label: Measurements and observations
+      description: Throughput, latency, memory use, thermals, errors or other relevant observations. Separate measured data from subjective impressions.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
+      description: Add links or excerpts only after removing secrets, private paths, serial numbers and personal data.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Publication check
+      options:
+        - label: I have removed credentials, private data and unique hardware identifiers from the material I am posting.
+          required: true

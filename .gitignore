@@ -1,0 +1,23 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.log
+
+# Never commit secrets or local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+config.local.*
+secrets/
+private/
+
+# Raw captures may contain private information; publish only sanitized derivatives
+media/raw/
+benchmarks/raw/
