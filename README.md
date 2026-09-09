@@ -10,6 +10,32 @@
 
 Ariamir is an AI systems project focused on coordinating local models, tools, workers and hardware resources through a unified operating layer. The project is designed around practical local execution, explicit permissions, reproducible workflows and the ability to combine CPU, GPU and other accelerators according to workload needs.
 
+## Inside Ariamir — work in progress
+
+### Agent Fabric
+
+A development-session view of the Fabric graph, model assignments and CPU/GPU/memory panels.
+
+[![Agent Fabric work in progress: worker graph, model assignments and hardware resource panels](media/screenshots/fabric-wip.png)](media/screenshots/fabric-wip.png)
+
+*Work in progress — unfinished development build. The interface and functions remain subject to change and require intensive QA and polish. Model assignments and resource figures describe this session; they are not benchmark results or guaranteed capacity.*
+
+[Open the full-resolution screenshot](media/screenshots/fabric-wip.png).
+
+### Modular and configurable
+
+Fabric is being built around configurable capabilities. The **Add capability** panel shows how users can describe a responsibility, select capability areas, choose automatic model selection or a specific installed model, and adjust the number of instances before adding it to the graph.
+
+<p align="center">
+  <a href="media/screenshots/fabric-add-capability-wip.png">
+    <img src="media/screenshots/fabric-add-capability-wip.png" alt="Fabric Add capability panel: task description, capability categories, model selection and instance controls — work in progress" width="420">
+  </a>
+</p>
+
+*Work in progress — configuration interface from a development build. Available categories and controls do not establish that every combination has passed end-to-end QA. Behaviour depends on the installed models, available resources and implementation status; further validation and polish are ongoing.*
+
+[Open the full-resolution configuration screenshot](media/screenshots/fabric-add-capability-wip.png).
+
 ## Systems under active development
 
 Ariamir brings together several systems, each with its own development and validation work. **Development / QA** means functionality exists in development builds and is still being tested and refined; it is not a release-readiness claim. Availability also depends on configuration, models, hardware and the specific workflow.

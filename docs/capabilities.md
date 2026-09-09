@@ -8,6 +8,8 @@ The systems below have functionality in development builds unless explicitly mar
 
 Fabric coordinates tasks across models, workers and tools. Workers handle bounded responsibilities within broader workflows, while task tracking makes progress and interruptions visible. Development continues on coordination, recovery, concurrency and behaviour across system boundaries.
 
+The development interface supports modular configuration: describing a responsibility, selecting capability areas, choosing automatic or manual model selection and adjusting worker instances. These controls describe configuration choices, not guaranteed performance or complete coverage of every combination. See the [Fabric WIP screenshots](../README.md#inside-ariamir--work-in-progress).
+
 Private routing criteria, worker prompts and orchestration implementation are outside this showcase.
 
 ## Local models and hardware-aware execution

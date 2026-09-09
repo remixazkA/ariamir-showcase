@@ -2,6 +2,13 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 0.1.4 — 2026-09-09
+
+### Added
+
+- Real Agent Fabric graph and capability-configuration screenshots with full-resolution links and explicit WIP and QA context.
+- Explain Fabric's modular configuration, model selection and instance controls without treating visible options or session figures as validated results.
+
 ## 0.1.3 — 2026-09-09
 
 ### Changed
