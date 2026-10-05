@@ -4,12 +4,15 @@ All notable public-showcase changes are recorded here. Private Ariamir developme
 
 ## 2026-10-05 — 0.19 and the modular transformation
 
+- Publish a public summary of the modernization and integration program, focused on capability evolution, continuity, selective Python adoption and future platform support.
+- Expand the roadmap from 0.19 through the portable foundation, macOS/Linux enablement, public beta and 1.0, with status and completion criteria for each stage.
+- Describe current work as representative integration validation, replacing unexplained internal milestone labels with product context.
 - Update the showcase around the 0.19 development line, business modules and the ongoing capability-platform transformation.
-- Identify M7 as in progress, preserving the distinction between implementation, technical checks, reopened validation and product acceptance.
+- Preserve the distinction between implementation, technical checks, open validation and product acceptance.
 - Explain module lifecycle, human-reviewed assistant proposals and optional connections through their practical value and limits.
 - Simplify the landing page and navigation; align capabilities, Knowledge, overview and roadmap.
 - Replace the architecture diagram with a public product overview; keep internal designs, operational diagnostics and private evidence outside the showcase.
-- Preserve the existing banner and label September screenshots as historical WIP views, not current M7 evidence.
+- Preserve the existing banner and label September screenshots as historical WIP views, not current integration evidence.
 
 ## 0.1.4 — 2026-09-09
 

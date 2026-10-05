@@ -18,7 +18,7 @@ A person selects a project, asks for help, inspects the relevant sources or prop
 
 ## What the transformation aims to improve
 
-More consistent capability development, clearer compatibility and better-tested updates and recovery. M7 is validating a representative capability; the broader migration is not complete. See [current status](current-status.md).
+More consistent capability development, selective access to the Python ecosystem, clearer compatibility and better-tested updates and recovery. A representative integration is being validated; broader migration and platform expansion remain ahead. Read the [modernization plan](modernization-plan.md) and [current status](current-status.md).
 
 ## Public boundary
 

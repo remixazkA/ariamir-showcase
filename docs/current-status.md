@@ -1,52 +1,45 @@
-# Ariamir 0.19 — current development status
+# Current development status
 
-**Reviewed 5 October 2026 · Modular transformation underway · M7 in progress**
+**Reviewed 5 October 2026 · Ariamir 0.19 · Modernization and integration**
 
-Ariamir's current development line is **0.19**. Release-candidate work and the ongoing transformation are related, but they are not the same deliverable. The transformation is advancing through milestones; M7 has begun and is not complete.
+Ariamir is modernizing how capabilities are developed and integrated while preserving the existing product. The current focus is **integration validation**: proving a representative extension through the new development path before moving to a real workload pilot and broader adoption.
 
-This page is a dated summary of product scope. It is not a live service dashboard, a stable-release announcement or a claim that development changes are installed everywhere.
+The foundation has implementation and technical evidence, but integration checks remain open. Broad capability migration, macOS/Linux support and stable-release acceptance have not been completed by this work.
 
-## The change in direction
-
-The 0.19 line establishes a platform for business modules: focused extensions with their own views, project data, access controls and supported integrations. Recent work is making the wider capability platform more consistent to develop, validate, update and recover.
-
-The intended benefit is a workspace that can grow around a user's work while preserving review and control. This showcase describes that benefit without publishing the design that implements it.
+[Read the modernization plan](modernization-plan.md) · [See the roadmap to 1.0](roadmap.md)
 
 ## Implemented in development builds
 
-| Area | Publicly describable progress | Limit |
+| Area | Current scope | Boundary |
 | --- | --- | --- |
-| Business modules | Installation, updates, project data, controlled access, integrations and module diagnostics. | Candidate functionality; real-module deployment needs separate acceptance. |
-| Module lifecycle | Backup participation, supported recovery and options to preserve or export data when retiring a module. | Recovery and compatibility depend on the supported operation and environment. |
-| Development foundation | Runtime and developer-tooling work with automated validation and a versioned SDK. | Technical evidence is scoped to particular revisions; this does not announce public SDK availability or complete capability migration. |
-| Assistant proposals | Advice and proposed next steps can be reviewed, corrected or accepted by a person. | Acceptance creates a plan; it does not execute an action. |
-| Knowledge and documents | Source-aware retrieval, connected notes, document analysis and generated artifacts. | Accuracy, source selection, layout and complete workflows remain under QA. |
-| Supervised tools | Supported browser, desktop, workspace and code operations, with reviewable outcomes. | Coverage varies; every application or action is not supported. |
-| Optional connections | Configured cloud inference and external MCP tools alongside Ariamir's own client bridge. | Explicit consent, selection and authorization apply; provider/account availability varies. |
+| Business modules | Focused views, project data, controlled access, integrations and diagnostics. | Acceptance of a specific business module or deployment is separate from platform support. |
+| Module lifecycle | Installation, updates, backup participation and supported retirement/recovery options. | Behaviour depends on the supported operation, versions and environment. |
+| Modernization groundwork | Runtime and developer-tooling implementation for compatible capabilities. | Not a completed migration or an announcement of public SDK availability. |
+| Knowledge and documents | Source-aware retrieval, connected notes, document analysis and generated artifacts. | Accuracy, presentation and complete user workflows remain under QA. |
+| Assistant proposals | Review, correct or accept suggested next steps. | Accepting a proposal does not authorize or execute its action. |
+| Supervised tools and connections | Supported browser, desktop, workspace and code operations, with optional configured services and models. | Coverage, dependencies, accounts and permissions vary. |
 
-## Current work — M7 and prerequisite validation
+Implemented means functionality exists in the reviewed development work. It does not mean every combination is available, deployed or accepted for production.
 
-M7 is concerned with proving a representative capability through the new development path. The reviewed records show a first attempt that did not complete, followed by diagnosis. They also show prerequisite validation being reopened after an earlier technical pass.
+## Work in progress
 
-Accordingly, **M7 remains in progress and its prerequisite validation remains open**. Implementation, a passing test run, milestone acceptance, integration and product release are separate facts. Earlier successful checks are retained as evidence for their revisions; they do not close newer failures.
+- Complete the representative integration and resolve open validation findings in its prerequisites.
+- Demonstrate continuity through updates, interruption, cancellation and restoration.
+- Establish comparable behaviour and resource use before adopting a real workload.
+- Continue cross-system QA, usability, accessibility and supported-environment testing.
 
-This review does not reproduce private plans, test logs, implementation contracts, repository links or operational details. No raw internal test total is presented as a public product-quality score.
+The latest reviewed records retain an incomplete integration attempt and reopened prerequisite validation. Earlier successful checks remain evidence for their revisions; they do not establish current completion.
 
-## Still to validate
+## What follows
 
-- Complete the representative capability workflow and close the current validation findings.
-- Establish comparable behaviour and compatibility across supported capability implementations.
-- Exercise installation, updates, recovery and real module integrations under the intended deployment conditions.
-- Expand Browser/Desktop coverage, accessibility and longer real-model sessions.
-- Validate document accuracy and presentation through complete user workflows.
-- Prepare suitable public demonstrations and reproducible hardware measurements.
+The planned sequence is a real workload pilot, selective modernization across further product areas, integrated release hardening, a portable foundation, selected macOS/Linux builds, public beta and a stable release. Each stage has its own completion criteria in the [roadmap](roadmap.md).
 
-Local media remains dependent on its installed runtime and models. Enterprise deployment, Android and broader accelerator support remain separate exploration areas; they are not completed by reaching M7.
+Local image/video workflows remain dependent on installed runtimes and models. Enterprise administration, Android and experimental accelerators remain separate exploration tracks.
 
-## How this snapshot was checked
+## Evidence and availability
 
-The review compared the 0.19 release-candidate records with the current transformation branch, implementation files, milestone handoffs and the latest validation updates. Later records take precedence over an older milestone index or local checkout. Historical test results were read as evidence, not rerun or re-certified for this editorial update.
+This snapshot was checked against current development records alongside the modernization plan. Planning documents describe intended scope; current implementation and validation records determine what can be reported as done. Internal task labels are not used as a substitute for explaining product progress.
 
-The connection to a running installation is not proof of the transformation branch's deployment status. Screenshots in this repository are historical development captures and are labelled accordingly.
+The running installation, a development branch and a release candidate may differ. No new installer, public SDK or stable release is announced by this documentation update. Existing screenshots are historical development captures, not proof of the current integration result.
 
-[Capabilities](capabilities.md) · [Roadmap](roadmap.md) · [Disclosure policy](public-disclosure-policy.md)
+Private source documents, implementation details, internal logs and operational data are excluded under the [disclosure policy](public-disclosure-policy.md).

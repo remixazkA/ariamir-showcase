@@ -6,25 +6,43 @@
 
 Ariamir brings models, project knowledge, documents and supervised tools into one workspace. It is built for people who want to work with their own information, review consequential actions and choose the capabilities their work needs.
 
-> **0.19 development line · Modular transformation underway · M7 in progress**
+> **0.19 development line · Modernization and integration underway**
 >
 > Reviewed 5 October 2026. Ariamir is an unfinished product. Implemented features, technical validation and a stable public release are different states.
 
-[Current status](docs/current-status.md) · [Capabilities](docs/capabilities.md) · [Knowledge](docs/knowledge.md) · [Roadmap](docs/roadmap.md) · [Hardware Lab](docs/hardware-lab.md) · [Collaborate](partners/README.md)
+[Modernization plan](docs/modernization-plan.md) · [Roadmap to 1.0](docs/roadmap.md) · [Current status](docs/current-status.md) · [Capabilities](docs/capabilities.md) · [Hardware Lab](docs/hardware-lab.md) · [Collaborate](partners/README.md)
 
-## What is changing in 0.19
+## The modernization and integration program
 
-**Ariamir is evolving into a more extensible platform.** The 0.19 line adds business modules with their own views and project data, controlled access, integrations and a managed lifecycle. The ongoing transformation builds on that foundation so capabilities can be developed, tested and maintained more consistently.
+**The goal is to improve Ariamir without making users start over.** We are modernizing the product capability by capability, preserving supported workflows and project data while making it easier to integrate suitable AI tools and extend the workspace.
 
-For users, the direction is practical: add a capability for a particular job, keep its data under control and make updates and recovery easier to assess. For developers, it is a clearer path to building extensions without depending on proprietary internals.
+The work builds on the 0.19 business-module platform: focused views, project data, controlled access, integrations and lifecycle support. It introduces Python selectively where there is a demonstrated benefit, while retaining existing implementations that continue to serve the product well.
+
+Three commitments guide the program:
+
+- **Preserve continuity.** Changes must keep supported behaviour, permissions and project data usable, with tested recovery.
+- **Measure the benefit.** Assess quality, responsiveness, memory and context use across complete tasks before adopting a replacement.
+- **Expand in stages.** Validate integration and a real workload first, then broaden adoption and prepare selected macOS and Linux support.
 
 | Status | What it means today |
 | --- | --- |
 | **Implemented in development builds** | Business-module installation and updates, project data and access controls, backup/retirement options, assistant proposals, Knowledge and supervised tools. Availability depends on the build and configuration. |
-| **In progress — M7** | Validation of a representative capability through the new development path. Foundational runtime and SDK work has implementation and test evidence, but validation remains open. M7 is not complete. |
-| **Roadmap / exploration** | Broader migration of capabilities, real deployment evidence, public performance results and future platform/hardware support. |
+| **In progress — integration validation** | Proving a representative extension through the new development path. Runtime and developer-tooling work has implementation and test evidence, but validation remains open. |
+| **Planned next stages** | A real workload pilot, selective adoption across capabilities, integrated hardening, a portable foundation, macOS/Linux enablement and public beta. |
 
-The latest records include an incomplete M7 attempt and reopened validation in its prerequisites. We therefore report the transformation as **in progress**, without presenting an earlier technical pass as final acceptance. [Read the dated status](docs/current-status.md).
+The representative integration is still being validated; broad migration has not finished. Read the [public plan](docs/modernization-plan.md) for the purpose and scope, or the [dated status](docs/current-status.md) for current limits.
+
+## Roadmap at a glance
+
+| Release theme | Intended outcome | Status |
+| --- | --- | --- |
+| **0.19 · Modernization and integration** | Evolve selected capabilities while preserving the experience, data and control users rely on. | In development |
+| **0.20 · Portable foundation** | Remove remaining assumptions that tie the core to Windows. | Planned; preparation underway |
+| **0.21 · macOS and Linux** | Validate clean installs and core workflows on selected real configurations. | Planned |
+| **0.22 · Public beta** | Test sustained third-party use and stabilize documented integrations. | Planned |
+| **1.0 RC → 1.0 stable** | Deliver a supported, recoverable and extensible workspace. | Target |
+
+These are release themes, not delivery dates or announcements of availability. The [full roadmap](docs/roadmap.md) explains the work and completion criteria for every stage.
 
 ## What you can do with Ariamir
 
@@ -44,7 +62,7 @@ Explore the [full capability catalog](docs/capabilities.md) and [public product 
 
 ## Inside Ariamir — work in progress
 
-These screenshots were first published in September 2026. They document earlier development sessions, not the current M7 build. The existing visual identity is retained while the product evolves.
+These screenshots were first published in September 2026. They document earlier development sessions, not the current modernization build. The existing visual identity is retained while the product evolves.
 
 ### Agent Fabric
 
@@ -62,7 +80,7 @@ The configuration panel illustrates the ability to describe a responsibility, ch
   </a>
 </p>
 
-*This earlier Fabric panel is not evidence of completed business-module migration or M7 acceptance.*
+*This earlier Fabric panel illustrates configuration; it does not demonstrate the new integration path or completed capability migration.*
 
 ## Knowledge that stays connected to its sources
 

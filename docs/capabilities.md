@@ -2,13 +2,13 @@
 
 > **Ariamir is unfinished and in active development.** Many functions need intensive QA, end-to-end validation and polish. This catalog describes development scope and user-facing behaviour; it does not certify stability, security, performance or production readiness.
 
-**0.19 development line · Reviewed 5 October 2026.** The systems below have functionality in development builds unless marked as exploration or future work. Availability depends on the build, configuration and workflow. Ariamir's modular transformation is at M7, with validation still open; the [current status](current-status.md) distinguishes implemented work from completed acceptance.
+**0.19 development line · Reviewed 5 October 2026.** The systems below have functionality in development builds unless marked as exploration or future work. Availability depends on the build, configuration and workflow. The [modernization plan](modernization-plan.md) explains how they are intended to evolve; [current status](current-status.md) distinguishes implementation from completed acceptance.
 
 ## Business modules and the 0.19 transformation
 
 **Implemented in 0.19 candidates; transformation and integration in progress.** Business modules can provide focused workspace views and project data, with controlled access, supported service integrations and module diagnostics. Lifecycle work covers installation, updates, backup participation and retirement with data-preservation or export options.
 
-The transformation builds on this foundation to make capabilities more consistent to develop and maintain. Runtime and SDK work has implementation and technical evidence; this is not an announcement of a public SDK release or a completed migration. M7 is validating a representative capability, and its latest records retain an incomplete attempt and open prerequisite validation.
+The transformation builds on this foundation to make capabilities more consistent to develop and maintain, including selective use of Python for suitable workloads. Runtime and SDK work has implementation and technical evidence; this is not an announcement of a public SDK release or a completed migration. A representative integration is being validated before a real workload pilot and broader adoption.
 
 The intended result is a clearer extension path and better-tested continuity as capabilities evolve. Actual availability and acceptance must be assessed per module and deployment.
 

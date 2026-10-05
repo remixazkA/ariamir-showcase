@@ -8,7 +8,7 @@ The 0.19 development line includes document-source retrieval with page reference
 
 The new Human Assistant Loop is related but distinct: it prepares workflow proposals and candidate preferences for a person to review. Accepting an assistant proposal produces a plan awaiting authorization; it does not automatically change Knowledge or execute a task. See [current status](current-status.md).
 
-The wider modular transformation is at M7. Existing Knowledge functionality is not evidence that its migration through the new capability path has been completed. Current validation and future migration are tracked separately in the [roadmap](roadmap.md).
+Knowledge is one of the areas evaluated by the [modernization plan](modernization-plan.md), with source continuity and project data central to any change. Existing functionality does not establish that its migration through the new development path is complete. Current validation and future adoption are tracked separately in the [roadmap](roadmap.md).
 
 ## Knowledge as a project workspace
 

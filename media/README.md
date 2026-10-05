@@ -12,7 +12,7 @@ Do not add raw desktop recordings, debug captures or screenshots containing priv
 
 ## Published screenshots
 
-Both captures below were first published in September 2026. They illustrate earlier development sessions and do not show the current 0.19 transformation or certify M7 acceptance.
+Both captures below were first published in September 2026. They illustrate earlier development sessions and do not demonstrate the current modernization and integration work.
 
 - [Agent Fabric — work in progress](screenshots/fabric-wip.png): a real development-session capture showing the graph, model assignments and hardware resource panels. Published at its original resolution of 2217 × 1352. The interface is unfinished, requires intensive QA and polish, and may change. The displayed resource figures are session-specific, not benchmark results.
 

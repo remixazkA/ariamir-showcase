@@ -6,7 +6,9 @@ Ariamir connects project information, models, documents and supervised tools. It
 
 ## Where the product is today
 
-The development line is **0.19**. Business modules add focused workspace views, project data, controlled access and lifecycle support. A substantial transformation of the capability platform is underway, with **M7 in progress** and validation still open.
+The development line is **0.19**. Business modules add focused workspace views, project data, controlled access and lifecycle support. A broader program is modernizing capabilities, introducing Python where useful and preparing future platform support. Representative integration is being validated before a real workload pilot and wider adoption.
+
+The [public modernization plan](modernization-plan.md) explains the purpose and scope. The roadmap then progresses through a portable foundation, selected macOS/Linux builds, public beta and 1.0, each with its own completion criteria.
 
 See the [dated status](current-status.md) for what is implemented, what is being validated and what remains exploratory. The showcase is not a declaration of stable release or production readiness.
 
