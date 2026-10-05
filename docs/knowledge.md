@@ -2,6 +2,14 @@
 
 > **Active development, not a finished system.** Knowledge and its related workflows still need intensive QA, end-to-end validation and interface polish. This page describes product scope without publishing proprietary implementation.
 
+## Recent implemented scope — reviewed 5 October 2026
+
+The 0.19 development line includes document-source retrieval with page references and provenance, graph exploration, reviewable note changes and governance for supported Knowledge changes. Users can inspect supporting material and operation history. Retrieval quality, synchronization, recovery and complete document-to-answer workflows still require validation.
+
+The new Human Assistant Loop is related but distinct: it prepares workflow proposals and candidate preferences for a person to review. Accepting an assistant proposal produces a plan awaiting authorization; it does not automatically change Knowledge or execute a task. See [current status](current-status.md).
+
+The wider modular transformation is at M7. Existing Knowledge functionality is not evidence that its migration through the new capability path has been completed. Current validation and future migration are tracked separately in the [roadmap](roadmap.md).
+
 ## Knowledge as a project workspace
 
 Knowledge gives Ariamir a dedicated place for durable project information: notes, sources, decisions and relationships. The goal is to make useful information editable, discoverable and traceable across tasks.

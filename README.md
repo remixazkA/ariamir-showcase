@@ -2,254 +2,106 @@
   <img src="media/ariamir-banner.svg" alt="Ariamir — Local-first AI orchestration" width="1600">
 </h1>
 
-> **ACTIVE DEVELOPMENT — NOT A FINISHED PRODUCT.** Ariamir is still being built. Many functions require intensive QA, end-to-end validation, reliability work and usability polish. Describing a system here does not mean it is complete, stable or production-ready.
+**Local-first AI for knowledge, useful work and extensible capabilities.**
 
-**Local-first AI orchestration, tool execution and heterogeneous compute — presented without exposing proprietary internals.**
+Ariamir brings models, project knowledge, documents and supervised tools into one workspace. It is built for people who want to work with their own information, review consequential actions and choose the capabilities their work needs.
 
-> This repository is the public showcase for Ariamir. It demonstrates what the system can do, the environments it is being validated on, and the direction of the project. It is **not** the Ariamir source tree and does not publish the implementation of Fabric, private routing logic, system prompts, permission internals, private schemas, production configuration, credentials, datasets or proprietary worker code.
+> **0.19 development line · Modular transformation underway · M7 in progress**
+>
+> Reviewed 5 October 2026. Ariamir is an unfinished product. Implemented features, technical validation and a stable public release are different states.
 
-Ariamir is an AI systems project focused on coordinating local models, tools, workers and hardware resources through a unified operating layer. The project is designed around practical local execution, explicit permissions, reproducible workflows and the ability to combine CPU, GPU and other accelerators according to workload needs.
+[Current status](docs/current-status.md) · [Capabilities](docs/capabilities.md) · [Knowledge](docs/knowledge.md) · [Roadmap](docs/roadmap.md) · [Hardware Lab](docs/hardware-lab.md) · [Collaborate](partners/README.md)
+
+## What is changing in 0.19
+
+**Ariamir is evolving into a more extensible platform.** The 0.19 line adds business modules with their own views and project data, controlled access, integrations and a managed lifecycle. The ongoing transformation builds on that foundation so capabilities can be developed, tested and maintained more consistently.
+
+For users, the direction is practical: add a capability for a particular job, keep its data under control and make updates and recovery easier to assess. For developers, it is a clearer path to building extensions without depending on proprietary internals.
+
+| Status | What it means today |
+| --- | --- |
+| **Implemented in development builds** | Business-module installation and updates, project data and access controls, backup/retirement options, assistant proposals, Knowledge and supervised tools. Availability depends on the build and configuration. |
+| **In progress — M7** | Validation of a representative capability through the new development path. Foundational runtime and SDK work has implementation and test evidence, but validation remains open. M7 is not complete. |
+| **Roadmap / exploration** | Broader migration of capabilities, real deployment evidence, public performance results and future platform/hardware support. |
+
+The latest records include an incomplete M7 attempt and reopened validation in its prerequisites. We therefore report the transformation as **in progress**, without presenting an earlier technical pass as final acceptance. [Read the dated status](docs/current-status.md).
+
+## What you can do with Ariamir
+
+These capabilities exist in development builds. The table describes their purpose and the work still needed, rather than promising universal availability.
+
+| Area | Practical value | Current boundary |
+| --- | --- | --- |
+| **Knowledge and Graph Workspace** | Find project notes and sources, follow relationships and inspect supporting context. | Retrieval, scale, synchronization and accessibility remain under validation. |
+| **Documents and code** | Read source material, prepare reports, explore code and review changes. | Output accuracy, layout and complete workflows still need QA. |
+| **Assistant proposals** | Review a suggested next step before deciding what to do. | Accepting a proposal creates a plan; execution requires separate authorization. |
+| **Business modules** | Add focused tools with their own workspace views and project data. | Implemented in 0.19 candidates; the platform transformation and real-module acceptance continue. |
+| **Models and Fabric** | Coordinate models, tools and available compute for a task. | Capacity depends on hardware and workload; cloud inference is optional and explicitly selected. |
+| **Browser, desktop and integrations** | Work through supported tools, configured services and compatible MCP clients. | Coverage, account setup and permissions vary; integration is not universal computer control. |
+| **Continuity and recovery** | Keep project context, inspect progress and use supported backup/update workflows. | Recovery is tested within stated boundaries; a stable release remains pending. |
+
+Explore the [full capability catalog](docs/capabilities.md) and [public product overview](docs/overview.md).
 
 ## Inside Ariamir — work in progress
 
+These screenshots were first published in September 2026. They document earlier development sessions, not the current M7 build. The existing visual identity is retained while the product evolves.
+
 ### Agent Fabric
 
-A development-session view of the Fabric graph, model assignments and CPU/GPU/memory panels.
+[![Historical Agent Fabric development view: graph, model assignments and resource panels](media/screenshots/fabric-wip.png)](media/screenshots/fabric-wip.png)
 
-[![Agent Fabric work in progress: worker graph, model assignments and hardware resource panels](media/screenshots/fabric-wip.png)](media/screenshots/fabric-wip.png)
-
-*Work in progress — unfinished development build. The interface and functions remain subject to change and require intensive QA and polish. Model assignments and resource figures describe this session; they are not benchmark results or guaranteed capacity.*
-
-[Open the full-resolution screenshot](media/screenshots/fabric-wip.png).
+*Historical WIP capture. Model assignments and resource figures describe that session; they are not benchmark results or guaranteed capacity.*
 
 ### Modular and configurable
 
-Fabric is being built around configurable capabilities. The **Add capability** panel shows how users can describe a responsibility, select capability areas, choose automatic model selection or a specific installed model, and adjust the number of instances before adding it to the graph.
+The configuration panel illustrates the ability to describe a responsibility, choose capability areas and select models and instances. Visible controls do not establish that every combination has passed end-to-end validation.
 
 <p align="center">
   <a href="media/screenshots/fabric-add-capability-wip.png">
-    <img src="media/screenshots/fabric-add-capability-wip.png" alt="Fabric Add capability panel: task description, capability categories, model selection and instance controls — work in progress" width="420">
+    <img src="media/screenshots/fabric-add-capability-wip.png" alt="Historical Fabric Add capability configuration panel — work in progress" width="420">
   </a>
 </p>
 
-*Work in progress — configuration interface from a development build. Available categories and controls do not establish that every combination has passed end-to-end QA. Behaviour depends on the installed models, available resources and implementation status; further validation and polish are ongoing.*
+*This earlier Fabric panel is not evidence of completed business-module migration or M7 acceptance.*
 
-[Open the full-resolution configuration screenshot](media/screenshots/fabric-add-capability-wip.png).
+## Knowledge that stays connected to its sources
 
-## Systems under active development
+Knowledge gives project notes, documents, decisions and relationships a durable home. Graph Workspace makes those connections explorable. Source references help a person assess an answer; finding a note does not make its contents true.
 
-Ariamir brings together several systems, each with its own development and validation work. **Development / QA** means functionality exists in development builds and is still being tested and refined; it is not a release-readiness claim. Availability also depends on configuration, models, hardware and the specific workflow.
+Memory serves a different purpose: conversational continuity and preferences. Knowledge Learning prepares changes for review. Neither repeated retrieval nor a generated answer is a substitute for independent evidence.
 
-| System | What it is being built to do | Current stage |
+[Explore Knowledge, Graph Workspace and learning](docs/knowledge.md).
+
+## Illustrative workflows
+
+These are fictional examples of intended user experience, not recorded demonstrations.
+
+| Situation | Illustrative experience | Human checkpoint |
 | --- | --- | --- |
-| Fabric and workers | Coordinate tasks, models, tools and bounded workers | Development / QA |
-| Model runtime | Manage local models, context and CPU/GPU/memory resources | Development / QA |
-| [Knowledge](docs/knowledge.md) | Organize project knowledge, notes, sources and relationships | Development / QA |
-| Graph Workspace | Explore connected knowledge and optional task, code and Fabric views | Development / QA |
-| Knowledge Learning | Prepare reviewable learning and maintenance proposals | Development / QA |
-| Memory | Maintain conversational continuity and user preferences separately from project knowledge | Development / QA |
-| Document Engine | Read, analyse and generate documents, with output quality checks | Development / intensive QA and polish |
-| Code Intelligence | Explore code, understand changes and support verified edits | Development / QA |
-| Tool Lab and modules | Manage optional capabilities, dependencies and their lifecycle | Development / integration and QA |
-| Browser and desktop tools | Observe and perform supervised actions in supported environments | Development / coverage and QA |
-| Bridge / MCP | Let compatible clients work with Ariamir's permitted capabilities | Development / integration and QA |
-| Connectors and accounts | Integrate external services through configured accounts | Development / provider-dependent validation |
-| Projects, tasks and artifacts | Organize work, track progress and manage generated files | Development / QA and usability polish |
-| Local diagnostics | Inspect system health and support bounded, reviewable maintenance | Development / QA |
-| Desktop and distribution | Deliver the app, installation, updates and recovery workflows | Development / packaging and QA |
-| Local image and video | Support local media workflows | Images: development / QA; video: integration / validation |
-| Hardware Compatibility Lab | Measure compatibility and behaviour on real components | Active testing; public results pending |
-| Heterogeneous / FPGA acceleration | Explore suitable accelerator workloads | Exploration / partner validation |
-| Enterprise environment | Explore controlled business and professional deployments | Research / architecture exploration |
-| Android portability | Explore a mobile execution environment | Architecture / future work |
-
-Full system descriptions: [capabilities](docs/capabilities.md). Development priorities: [roadmap](docs/roadmap.md).
-
-## Architecture overview
-
-```mermaid
-flowchart LR
-    U[User / UI] --> F[Fabric]
-    F --> M[Local Model Pool]
-    F --> W[Workers]
-    F --> T[Tool Layer]
-    F --> K[Knowledge]
-    F --> P[Memory]
-    K --> G[Graph Workspace]
-    T --> D[Document Engine]
-    T --> I[Code Intelligence]
-    T --> C[Connectors / External Services]
-    T --> R[Local Runtime]
-    M --> H[CPU / GPU / Accelerators]
-    W --> H
-    R --> H
-```
-
-That diagram is intentionally the level of detail published here: **boxes, interfaces and outcomes — not proprietary orchestration internals.**
-
-See [`docs/architecture-overview.md`](docs/architecture-overview.md) for the public architecture boundary.
-
-## Knowledge, Graph Workspace and learning
-
-**Knowledge is a dedicated system within Ariamir.** It brings together editable project notes, sources, decisions and relationships, with search and retrieval that can supply relevant context to ongoing work.
-
-Graph Workspace provides a visual way to explore those relationships. Development work includes filtering, inspecting sources, following connections and optional views of tasks, code and Fabric activity. Knowledge Learning prepares proposals from selected observations and reviewed outcomes so that knowledge can be improved deliberately.
-
-Memory handles conversational continuity and preferences separately. A generated answer or a frequently retrieved note is not, by itself, proof that a claim is correct. These systems still need intensive QA, cross-system validation and interface polish.
-
-See [Knowledge, Graph Workspace and learning](docs/knowledge.md) for the public overview.
-
-## What Ariamir is being built to do
-
-- Coordinate local models, workers and tools across practical workflows.
-- Build and explore persistent project knowledge, including sources and relationships.
-- Support conversational memory alongside reviewable knowledge learning.
-- Read, analyse and produce documents, code and other useful artifacts.
-- Carry out supervised browser, desktop and project operations.
-- Extend capabilities through Tool Lab, modules, configured connectors and Bridge / MCP.
-- Organize projects, tasks, generated files and recoverable work.
-- Integrate local image and video workflows and evaluate real hardware behaviour.
-
-These are product capabilities under development, not a promise that every workflow is complete or reliable. More detail: [capabilities](docs/capabilities.md).
-
-## Enterprise deployment exploration
-
-Ariamir is also exploring a specialized deployment environment aimed at business and professional use cases, with a focus on controlled deployments, organizational security, permission governance, auditable workflows, integration with enterprise infrastructure, and scalable heterogeneous compute.
-
-This work is at the research and architecture exploration stage. It does not represent an available Enterprise edition or validated enterprise security, compliance, scalability or multi-user capabilities.
+| Prepare a project brief | Find relevant sources, inspect references and draft a report. | Review the claims and document before sharing. |
+| Decide the next step | Ask for help, inspect a proposal and correct or accept it. | Authorize an operation separately if execution is wanted. |
+| Extend a workspace | Add a suitable business module and work with its project data. | Review access and update/recovery options; actual module availability varies. |
 
 ## Hardware Compatibility Lab
 
-Ariamir is developed and validated on real local hardware rather than only cloud abstractions. The current reference workstation includes:
+The published reference workstation uses an Intel Core i7-12700KF, NVIDIA GeForce RTX 4080 16 GB, 32 GB RAM and Windows x64. It is a development baseline, not a minimum specification or a performance guarantee.
 
-- **CPU:** Intel Core i7-12700KF
-- **GPU:** NVIDIA GeForce RTX 4080 16 GB
-- **Memory:** 32 GB system RAM
-- **Platform:** Windows x64
+The lab's scope includes compatibility, latency, memory pressure and workload suitability. FPGA and other accelerator work remains exploratory. No completed FPGA backend or unpublished performance result is claimed here.
 
-The lab tracks compatibility, throughput, VRAM/RAM pressure, latency, thermals where available, failure modes and workload suitability. Results are published only when the methodology and data are suitable for public release.
+[Hardware Lab](docs/hardware-lab.md) · [Benchmark methodology](benchmarks/README.md)
 
-See [`docs/hardware-lab.md`](docs/hardware-lab.md) and [`benchmarks/`](benchmarks/).
+## Public scope
 
-## Example workflows
+This repository is Ariamir's public showcase. It contains product descriptions, historical WIP media, roadmap and hardware-validation material. It does not distribute the application, proprietary source or internal architecture.
 
-The following examples are **illustrative and fictitious**. They communicate product behavior without reproducing private prompts, routing rules or implementation details.
+Public descriptions focus on what people can do and what remains to be validated. Private plans, contracts, prompts, routing and permission logic, credentials, customer data and operational records remain outside this repository. See the [disclosure policy](docs/public-disclosure-policy.md) and [public system overview](docs/architecture-overview.md).
 
-### Knowledge-assisted project workflow
+## Follow the work or collaborate
 
-```text
-Question about a project
-  → relevant Knowledge notes and sources
-  → relationship inspection in Graph Workspace, when useful
-  → answer or document with source references
-  → proposed knowledge update for review, if appropriate
-```
+- Follow the [dated status](docs/current-status.md), [changelog](CHANGELOG.md) and [roadmap](docs/roadmap.md).
+- See [contribution guidance](CONTRIBUTING.md) for documentation and compatibility feedback.
+- Explore [hardware evaluation and validation partnerships](partners/README.md).
 
-This illustrates intended user-facing behaviour. It does not imply that every path has completed end-to-end validation.
+Enterprise deployment and Android support remain exploratory; existing module access controls do not imply a finished Enterprise edition. Public release readiness, new demonstration evidence and repeatable benchmarks are still work ahead.
 
-### Research and document workflow
-
-```text
-User request
-  → Fabric
-  → research worker + retrieval tools
-  → source collection
-  → document worker
-  → reviewed report output
-```
-
-### Local media workflow
-
-```text
-User request
-  → Fabric
-  → media worker
-  → local generation backend
-  → post-processing tools
-  → output artifact
-```
-
-### Heterogeneous compute workflow
-
-```text
-Workload
-  → Fabric
-  → suitable execution resource
-  → CPU / GPU / accelerator
-  → measured result
-```
-
-For FPGA-oriented evaluation, the public objective is straightforward: Ariamir can treat an FPGA as a heterogeneous resource for deterministic preprocessing, streaming, specialised kernels and low-latency pipelines, coordinated with CPU/GPU resources. The decision logic and implementation remain private.
-
-## Public disclosure boundary
-
-We publish:
-
-- what Ariamir does;
-- high-level system boundaries;
-- sanitized screenshots and demos;
-- reproducible benchmark methodology and approved results;
-- hardware compatibility findings;
-- roadmap and release notes;
-- fictitious workflow examples;
-- public partner acknowledgements when authorised.
-
-We do **not** publish:
-
-- Fabric source code or private routing heuristics;
-- system prompts or private worker prompts;
-- detailed permission logic;
-- proprietary orchestration internals;
-- private schemas or production configuration;
-- credentials, tokens or secrets;
-- private datasets or user data;
-- source code whose publication would make the implementation reproducible.
-
-Full policy: [`docs/public-disclosure-policy.md`](docs/public-disclosure-policy.md).
-
-## Repository map
-
-```text
-ariamir-showcase/
-├── README.md
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── SECURITY.md
-├── LICENSE
-├── docs/
-│   ├── overview.md
-│   ├── capabilities.md
-│   ├── knowledge.md
-│   ├── architecture-overview.md
-│   ├── hardware-lab.md
-│   ├── public-disclosure-policy.md
-│   └── roadmap.md
-├── media/
-│   ├── screenshots/
-│   ├── demos/
-│   └── diagrams/
-├── benchmarks/
-│   ├── local-llm.md
-│   ├── document-engine.md
-│   └── hardware.md
-└── partners/
-    └── README.md
-```
-
-## Hardware vendors, sponsors and validation partners
-
-Ariamir is open to hardware evaluation, compatibility testing and technical sponsorship where there is a concrete fit with local AI workloads. Relevant areas include compute, FPGA/accelerators, memory, storage, cooling, chassis/power, networking, capture and workstation peripherals.
-
-A public acknowledgement is made only with permission. Supplying evaluation hardware does not automatically imply endorsement by either party.
-
-See [`partners/README.md`](partners/README.md).
-
-## Project status
-
-Ariamir is unfinished and under active development. Many functions still need intensive QA, regression testing, end-to-end validation, reliability improvements and usability polish. Individual features or passing tests do not establish whole-product readiness.
-
-Public documentation may lag development builds. Benchmark methodology is not a measured result, and a listed capability is not a guarantee of availability or production suitability. Proprietary implementation details remain private.
-
-## License
-
-The public materials in this showcase are **not an open-source release of Ariamir**. See [`LICENSE`](LICENSE).
+The showcase is not an open-source release of Ariamir. See the [license](LICENSE).

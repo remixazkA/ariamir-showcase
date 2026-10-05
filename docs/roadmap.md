@@ -1,40 +1,44 @@
-# Public Roadmap
+# Public roadmap
 
-Ariamir is unfinished and in active development. Many functions need intensive QA, end-to-end validation, reliability improvements and usability polish. This roadmap describes outcomes rather than proprietary implementation tasks; it does not promise delivery dates or production readiness.
+**0.19 development line · Reviewed 5 October 2026**
 
-## Near term
+Ariamir is undergoing a substantial transformation toward a more extensible capability platform. This roadmap describes intended outcomes. It does not publish internal work orders or promise delivery dates.
 
-- Prioritize intensive regression and end-to-end QA across systems, including interruption, recovery and failure cases.
-- Improve interface clarity, accessibility and polish; make incomplete or unavailable behaviour visible.
-- Validate Knowledge retrieval, source traceability, learning proposals and separation from Memory.
-- Refine Graph Workspace interaction and cross-system views using synthetic examples.
-- Exercise Code Intelligence, Tool Lab, browser/desktop actions, Bridge / MCP and connector workflows under realistic conditions.
-- Continue validating desktop installation, updates and recovery without claiming a finished public release.
+## Implemented foundation
 
-- Publish sanitized screenshots and short demos of Knowledge, Graph Workspace, Fabric and other systems as validation permits.
-- Expand the public hardware compatibility matrix.
-- Publish reproducible local-model benchmark runs.
-- Publish Document Engine quality examples using synthetic/public documents.
-- Complete public validation of the local video pipeline.
-- Improve issue templates for hardware reports and reproducibility data.
+The 0.19 candidates add business modules, project data and access controls, integrations, updates and recovery support. The transformation has also produced runtime and SDK implementation with revision-specific technical evidence. Knowledge, documents, assistant proposals and supervised tools remain part of the wider product.
 
-## Next phase
+Those foundations are implemented development work, not a finished ecosystem. See [current status](current-status.md) for the distinction between code, validation and acceptance.
 
-- Explore a dedicated enterprise-oriented Ariamir environment for controlled organizational deployments, security governance, auditability, infrastructure integration and multi-user workflows.
+## Now — M7 and validation
 
-- Broaden multi-model and multi-backend validation.
-- Add more repeatable workstation-level performance tests.
-- Expand heterogeneous-compute experiments, including FPGA-suitable workload classes.
-- Publish additional end-to-end workflow demonstrations.
-- Build a clearer release-note cadence for showcase-visible capabilities.
+- Prove a representative capability through the new development path.
+- Resolve the incomplete M7 attempt and the reopened prerequisite validation.
+- Verify compatible behaviour, interruption handling and recovery using reviewable evidence.
+- Keep successful historical tests separate from unresolved current findings.
 
-## Longer term
+M7 is **in progress**, not complete. A later milestone is not presented as delivered merely because it is planned or conditionally authorized.
 
-- Explore Android portability with separate runtime and device validation.
+## Next — broader product integration
 
-- Maintain a vendor-neutral compatibility knowledge base for local AI workloads.
-- Validate Ariamir across larger-memory GPU and multi-accelerator workstations.
-- Expand controlled integrations with external services and hardware.
-- Improve reproducibility tooling for public benchmark packs.
+- Extend the validated development path to further capabilities after the current milestone's checks pass.
+- Test real modules and their installation, updates, backup and retirement workflows.
+- Improve the clarity of capability availability, permissions and failure recovery in the interface.
+- Continue full-workflow testing of Knowledge, documents, code, browser/desktop tools and optional connections.
+- Complete the applicable release-readiness checks, including packaging, accessibility and supported-environment coverage.
 
-Roadmap items may change as private development priorities, hardware availability and partner-validation opportunities evolve.
+## Public evidence
+
+- Publish sanitized captures of the evolving product when representative builds are ready.
+- Add synthetic or redistributable document and module demonstrations.
+- Publish reproducible local-model and workstation measurements, separate from methodology.
+- Expand the compatibility matrix with explicit hardware, software and workload conditions.
+- Validate local video workflows before presenting them as demonstrated capabilities.
+
+## Longer-term exploration
+
+- Controlled organizational deployments and enterprise-oriented workflows.
+- Android portability and device-specific integration.
+- Broader multi-model, multi-backend and accelerator validation, including suitable FPGA experiments.
+
+These directions do not announce an Enterprise edition, a completed Android app or a general-purpose FPGA backend. Priorities depend on validation findings, development capacity and suitable collaboration opportunities.

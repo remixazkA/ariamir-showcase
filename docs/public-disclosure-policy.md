@@ -19,6 +19,14 @@ Subject to normal privacy, licensing and partner-approval checks: high-level cap
 - Debug dumps containing private paths, machine identifiers or secrets.
 - Unpublished partner information.
 - Implementation details considered differentiating IP.
+- Internal milestone plans, handoff records, validation logs and links into private product repositories.
+- Runtime protocols, ownership maps and technical contracts that expose implementation architecture.
+
+## Reporting development progress
+
+Publish the practical capability, its reviewed date and its status: implemented in development builds, in validation, or roadmap. A milestone number may identify progress, but must not stand in for acceptance evidence. If later validation reopens a finding, an earlier passing run must not be presented as current completion.
+
+Describe the product outcome rather than reproducing private plans or implementation diagrams. Keep the running installation's health separate from the state of a development branch. Do not expose machine-specific diagnostics, internal test totals or private repository links as promotional evidence.
 
 ## Screenshot checklist
 

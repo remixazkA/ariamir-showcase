@@ -1,59 +1,27 @@
-# Architecture Overview
+# Public system overview
 
-This is the maximum intended architectural disclosure level for the public showcase. The diagram summarizes conceptual system relationships, not implementation topology. Ariamir is unfinished; the diagram does not certify integration completeness or production readiness.
+This page describes Ariamir through user-facing capabilities. It deliberately omits internal topology, execution protocols and proprietary design. The 0.19 transformation is in progress; this is not a diagram of its implementation.
 
-```mermaid
-flowchart TB
-    UI[User / UI]
-    F[Fabric]
-    MODELS[Local Model Pool]
-    WORKERS[Workers]
-    TOOLS[Tool Layer]
-    KNOWLEDGE[Knowledge]
-    GRAPH[Graph Workspace]
-    MEMORY[Memory]
-    DATA[Document Engine]
-    CODE[Code Intelligence]
-    EXT[Connectors / External Services]
-    RUNTIME[Local Runtime]
-    HW[CPU / GPU / Accelerators]
+| Product area | What a person encounters |
+| --- | --- |
+| Workspace | Projects, conversations, source material and generated artifacts. |
+| Knowledge and Memory | Project information with sources, alongside conversational continuity and preferences. |
+| Models and Fabric | Model choices, task progress and available compute resources. |
+| Documents and code | Analysis, drafted outputs and reviewable changes. |
+| Capabilities and modules | Focused tools with their own supported views, data and lifecycle. |
+| Supervised operations | Review, authorization and observable outcomes for supported actions. |
+| Optional connections | Configured services, remote models and compatible MCP clients. |
 
-    UI --> F
-    F --> MODELS
-    F --> WORKERS
-    F --> TOOLS
-    F --> KNOWLEDGE
-    F --> MEMORY
-    KNOWLEDGE --> GRAPH
-    TOOLS --> DATA
-    TOOLS --> CODE
-    TOOLS --> EXT
-    TOOLS --> RUNTIME
-    MODELS --> HW
-    WORKERS --> HW
-    RUNTIME --> HW
-```
+## An illustrative user journey
 
-## Public interface-level description
+A person selects a project, asks for help, inspects the relevant sources or proposed output, and decides whether to authorize an operation. Where supported, Ariamir records the outcome and offers recovery options. This is a conceptual experience, not a recorded demonstration or a universal guarantee.
 
-- **User / UI:** initiates tasks and receives results.
-- **Fabric:** coordinates execution at a system level.
-- **Local Model Pool:** provides model inference resources.
-- **Workers:** execute bounded roles within larger workflows.
-- **Tool Layer:** exposes permitted capabilities to the system.
-- **Knowledge:** organizes and retrieves project knowledge, with reviewable learning proposals.
-- **Graph Workspace:** provides visual exploration of relationships and optional cross-system views.
-- **Memory:** supports conversational continuity and preferences separately from Knowledge.
-- **Document Engine:** handles document analysis, generation and quality review.
-- **Code Intelligence:** supports code exploration, diagnostics and reviewable changes.
-- **Connectors / External Services:** integrates supported external systems where authorised.
-- **Local Runtime:** executes local tools and processing workloads.
-- **CPU / GPU / Accelerators:** provide heterogeneous compute resources.
+## What the transformation aims to improve
 
-Tool Lab and modules extend capabilities; Bridge / MCP and configured connectors expose supported integrations. Projects, tasks, artifacts and the desktop application provide the surrounding workspace. The [system catalog](capabilities.md) also covers diagnostics, distribution, local media and exploratory platform work.
+More consistent capability development, clearer compatibility and better-tested updates and recovery. M7 is validating a representative capability; the broader migration is not complete. See [current status](current-status.md).
 
-## Explicitly out of scope for public architecture
+## Public boundary
 
-The showcase does not document internal Fabric routing criteria, confidence thresholds, fallback rules, private orchestration state machines, system or worker prompts, private permission schemas, internal message schemas, production paths, hostnames, secrets or code-level call graphs for proprietary components.
+Internal contracts, ownership maps, runtime protocols, routing rules, security mechanisms, private APIs, operational records and implementation source are excluded. Public progress is described in terms of observable behaviour, scope and remaining validation.
 
-The purpose is to explain **system shape and engineering intent**, not provide a reconstruction guide.
+[Capability catalog](capabilities.md) · [Disclosure policy](public-disclosure-policy.md)
