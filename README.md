@@ -1,5 +1,5 @@
 <h1>
-  <img src="media/ariamir-banner.svg" alt="Ariamir — Local-first AI orchestration" width="1600">
+  <img src="media/ariamir-portfolio-clean.png" alt="Ariamir — Your world. Your way. — Nebrae Collective" width="1600">
 </h1>
 
 **Local-first AI for knowledge, useful work and extensible capabilities.**
