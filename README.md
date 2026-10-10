@@ -12,6 +12,25 @@ Ariamir brings models, project knowledge, documents and supervised tools into on
 
 [Modernization plan](docs/modernization-plan.md) · [Roadmap to 1.0](docs/roadmap.md) · [Current status](docs/current-status.md) · [Capabilities](docs/capabilities.md) · [Hardware Lab](docs/hardware-lab.md) · [Collaborate](partners/README.md)
 
+## What “0.19” means
+
+**0.19 is Ariamir's pre-1.0 development line.** It identifies a stage in the product's evolution, with implemented functionality and ongoing integration work. It is not a completion percentage or an announcement of a stable public release.
+
+By this stage, Ariamir's scope extends across:
+
+- **Models and tools:** model management, Fabric coordination and supported supervised actions.
+- **Project knowledge:** connected notes, source-aware retrieval and the Graph Workspace.
+- **Documents and code:** analysis, artifact preparation and supported development workflows.
+- **An extensible workspace:** business modules, project data, access controls, installation, updates and supported recovery.
+
+The 0.19 program builds on that foundation to modernize selected capabilities and validate their integration. Availability and validation depend on the build and configuration; the [dated status](docs/current-status.md) and [roadmap](docs/roadmap.md) explain the remaining work.
+
+### Project origin and development
+
+Gabriel Vázquez conceived Ariamir and carried out almost all of its design and development up to the 0.19 line, using AI-assisted development. As Ariamir's scope grew and came to cover much of the area addressed by AAOS, the two projects were unified. The combined project continues collaboratively within Nebrae Collective.
+
+This development history describes the original contribution and subsequent unification. It does not mean that the entire 0.19 modernization program has completed validation.
+
 ## The modernization and integration program
 
 **The goal is to improve Ariamir without making users start over.** We are modernizing the product capability by capability, preserving supported workflows and project data while making it easier to integrate suitable AI tools and extend the workspace.
