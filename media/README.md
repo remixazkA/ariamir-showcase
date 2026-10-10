@@ -10,6 +10,10 @@ All media must pass the checklist in [`../docs/public-disclosure-policy.md`](../
 
 Do not add raw desktop recordings, debug captures or screenshots containing private paths, prompts, credentials, personal data or unapproved partner material.
 
+## Product presentation image
+
+[Clean Ariamir portfolio image](ariamir-portfolio-clean.png) — a presentation visual derived from the public Nebrae website, with navigation, scroll prompts and audio controls removed using an AI image-editing tool. It is brand imagery, not a screenshot demonstrating application functionality.
+
 ## Published screenshots
 
 Both captures below were first published in September 2026. They illustrate earlier development sessions and do not demonstrate the current modernization and integration work.
