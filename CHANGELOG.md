@@ -2,6 +2,12 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 2026-10-10 — Explain 0.19 and the project's origin
+
+- Explain the 0.19 development line, its product scope and the ongoing modernization/integration work directly in the README.
+- Document Gabriel Vázquez's original conception and principal development contribution up to 0.19, followed by the unification with AAOS and collaborative continuation within Nebrae Collective.
+- Keep development history separate from release availability and completed validation; this documentation change announces no new product release.
+
 ## 2026-10-05 — 0.19 and the modular transformation
 
 - Publish a public summary of the modernization and integration program, focused on capability evolution, continuity, selective Python adoption and future platform support.
