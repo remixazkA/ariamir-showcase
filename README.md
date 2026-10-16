@@ -6,11 +6,11 @@
 
 Ariamir brings models, project knowledge, documents and supervised tools into one workspace. It is built for people who want to work with their own information, review consequential actions and choose the capabilities their work needs.
 
-> **0.19 development line · Modernization and integration underway**
+> **0.19 development line · Representative integration accepted · Real workload pilot in preparation**
 >
-> Reviewed 5 October 2026. Ariamir is an unfinished product. Implemented features, technical validation and a stable public release are different states.
+> Reviewed 16 October 2026. Ariamir is an unfinished product. Implemented features, technical validation and a stable public release are different states.
 
-[Modernization plan](docs/modernization-plan.md) · [Roadmap to 1.0](docs/roadmap.md) · [Current status](docs/current-status.md) · [Capabilities](docs/capabilities.md) · [Hardware Lab](docs/hardware-lab.md) · [Collaborate](partners/README.md)
+[nebrae.com](https://nebrae.com) · [Modernization plan](docs/modernization-plan.md) · [Roadmap to 1.0](docs/roadmap.md) · [Current status](docs/current-status.md) · [Capabilities](docs/capabilities.md) · [Hardware Lab](docs/hardware-lab.md) · [Collaborate](partners/README.md)
 
 ## What “0.19” means
 
@@ -46,10 +46,11 @@ Three commitments guide the program:
 | Status | What it means today |
 | --- | --- |
 | **Implemented in development builds** | Business-module installation and updates, project data and access controls, backup/retirement options, assistant proposals, Knowledge and supervised tools. Availability depends on the build and configuration. |
-| **In progress — integration validation** | Proving a representative extension through the new development path. Runtime and developer-tooling work has implementation and test evidence, but validation remains open. |
-| **Planned next stages** | A real workload pilot, selective adoption across capabilities, integrated hardening, a portable foundation, macOS/Linux enablement and public beta. |
+| **Completed — representative integration** | A representative extension built through the new development path was integrated and accepted, including a 24-hour continuous run. |
+| **In progress — real workload pilot** | Preparing a real AI workload as a capability on the new path, while hardening the integrated release. |
+| **Planned next stages** | Selective adoption across capabilities, integrated hardening, a portable foundation, macOS/Linux enablement and public beta. |
 
-The representative integration is still being validated; broad migration has not finished. Read the [public plan](docs/modernization-plan.md) for the purpose and scope, or the [dated status](docs/current-status.md) for current limits.
+The representative integration is complete; broad migration has not finished. Read the [public plan](docs/modernization-plan.md) for the purpose and scope, or the [dated status](docs/current-status.md) for current limits.
 
 ## Roadmap at a glance
 
@@ -101,6 +102,17 @@ The configuration panel illustrates the ability to describe a responsibility, ch
 
 *This earlier Fabric panel illustrates configuration; it does not demonstrate the new integration path or completed capability migration.*
 
+## The Nebrae Collective website
+
+[nebrae.com](https://nebrae.com) presents Ariamir as a journey through a living neural network. Each chapter opens from a glass panel into an interactive world of its own, and the journey ends in a laboratory where the network keeps growing.
+
+<p align="center">
+  <a href="media/website/nebrae-chapters.jpg"><img src="media/website/nebrae-chapters.jpg" alt="Nebrae website: glass panels for the Memory, Knowledge and Creation chapters inside the neural network" width="49%"></a>
+  <a href="media/website/nebrae-closing.jpg"><img src="media/website/nebrae-closing.jpg" alt="Nebrae website: closing scene with the laboratory vessels and the neural network" width="49%"></a>
+</p>
+
+*Captured from nebrae.com on 16 October 2026. The website presents the project; it is not the application.*
+
 ## Knowledge that stays connected to its sources
 
 Knowledge gives project notes, documents, decisions and relationships a durable home. Graph Workspace makes those connections explorable. Source references help a person assess an answer; finding a note does not make its contents true.
@@ -121,7 +133,7 @@ These are fictional examples of intended user experience, not recorded demonstra
 
 ## Hardware Compatibility Lab
 
-The published reference workstation uses an Intel Core i7-12700KF, NVIDIA GeForce RTX 4080 16 GB, 32 GB RAM and Windows x64. It is a development baseline, not a minimum specification or a performance guarantee.
+The published reference workstation uses an Intel Core i7-12700KF, NVIDIA GeForce RTX 4080 16 GB, 32 GB RAM and Windows 11 x64; development builds currently target Windows 11. It is a development baseline, not a minimum specification or a performance guarantee.
 
 The lab's scope includes compatibility, latency, memory pressure and workload suitability. FPGA and other accelerator work remains exploratory. No completed FPGA backend or unpublished performance result is claimed here.
 
@@ -135,6 +147,7 @@ Public descriptions focus on what people can do and what remains to be validated
 
 ## Follow the work or collaborate
 
+- Visit [nebrae.com](https://nebrae.com), Nebrae Collective's interactive website.
 - Follow the [dated status](docs/current-status.md), [changelog](CHANGELOG.md) and [roadmap](docs/roadmap.md).
 - See [contribution guidance](CONTRIBUTING.md) for documentation and compatibility feedback.
 - Explore [hardware evaluation and validation partnerships](partners/README.md).

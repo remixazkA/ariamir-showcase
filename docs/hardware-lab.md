@@ -9,9 +9,11 @@ Ariamir's Hardware Compatibility Lab is the public-facing framework for validati
 | CPU | Intel Core i7-12700KF |
 | GPU | NVIDIA GeForce RTX 4080 16 GB |
 | System memory | 32 GB |
-| Platform | Windows x64 |
+| Platform | Windows 11 x64 |
 
-This configuration is a baseline, not a minimum requirement.
+This configuration is a baseline, not a minimum requirement. Development builds currently target Windows 11.
+
+Partner-provided hardware is added to this page once it is installed and tested; see [current partners](../partners/README.md#current-partners).
 
 ## What the lab measures
 

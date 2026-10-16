@@ -2,6 +2,14 @@
 
 Ariamir welcomes technically relevant hardware evaluation and sponsorship discussions.
 
+## Current partners
+
+| Partner | Role |
+| --- | --- |
+| [Azken Muga](https://www.azken.com) | Technology partner |
+
+Partners are listed here once both sides approve public acknowledgement. Results obtained with partner-provided hardware are published in the [Hardware Compatibility Lab](../docs/hardware-lab.md), identified as such, once the hardware is installed and tested.
+
 ## Areas of interest
 
 - GPUs and AI accelerators

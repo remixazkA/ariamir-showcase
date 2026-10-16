@@ -2,6 +2,15 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 2026-10-16 — Representative integration accepted
+
+- Report the representative integration as completed and accepted, including an approved 24-hour continuous run, and the real workload pilot as the next step.
+- Report the core regression suite passing on the integrated build (1,204 of 1,204 checks).
+- State that development builds currently target Windows 11.
+- List Azken Muga as a technology partner, as on nebrae.com; partner hardware results are published once the hardware is installed and tested.
+- Link to the Nebrae Collective website, nebrae.com, and add two captures of it.
+- This documentation change announces no new product release, installer or public SDK.
+
 ## 2026-10-10 — Explain 0.19 and the project's origin
 
 - Explain the 0.19 development line, its product scope and the ongoing modernization/integration work directly in the README.

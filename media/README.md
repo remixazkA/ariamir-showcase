@@ -14,6 +14,13 @@ Do not add raw desktop recordings, debug captures or screenshots containing priv
 
 [Clean Ariamir portfolio image](ariamir-portfolio-clean.png) — a presentation visual derived from the public Nebrae website, with navigation, scroll prompts and audio controls removed using an AI image-editing tool. It is brand imagery, not a screenshot demonstrating application functionality.
 
+## Nebrae website captures
+
+Captured from the public website [nebrae.com](https://nebrae.com) on 16 October 2026, at 1600 × 900, without edits. They show the website, not the Ariamir application.
+
+- [Chapter panels](website/nebrae-chapters.jpg): the journey through the neural network, with the glass panels that open each chapter.
+- [Closing scene](website/nebrae-closing.jpg): the laboratory and the network at the end of the journey.
+
 ## Published screenshots
 
 Both captures below were first published in September 2026. They illustrate earlier development sessions and do not demonstrate the current modernization and integration work.
