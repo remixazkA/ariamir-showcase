@@ -1,6 +1,6 @@
 # Modernization and integration plan
 
-**Ariamir 0.19 onward · Public summary · Reviewed 5 October 2026**
+**Ariamir 0.19 onward · Public summary · Reviewed 16 October 2026**
 
 Ariamir is being modernized so its capabilities can evolve without forcing users to start over. The plan combines a more extensible product, selective adoption of Python for suitable AI workloads, stronger integration between existing tools, and a staged path to macOS and Linux.
 
@@ -68,9 +68,11 @@ The target is one coherent product with a documented compatibility matrix. Unive
 
 **Implemented groundwork:** business-module lifecycle support and development work on the runtime and developer tooling, with scoped technical evidence.
 
-**Current focus:** validating a representative extension through the new development path. Integration checks remain open; the program has not completed broad capability migration.
+**Completed:** a representative extension built through the new development path was integrated into the product and accepted, including a 24-hour continuous run.
 
-**Next:** a real workload pilot, selective adoption across further capabilities and integrated product hardening. The portable foundation, macOS/Linux enablement, public beta and stable release follow their own acceptance criteria.
+**Current focus:** preparing the real workload pilot and hardening the integrated release. The program has not completed broad capability migration.
+
+**Next:** the real workload pilot, selective adoption across further capabilities and integrated product hardening. The portable foundation, macOS/Linux enablement, public beta and stable release follow their own acceptance criteria.
 
 See the [roadmap](roadmap.md) for the sequence and what must be demonstrated at each stage.
 

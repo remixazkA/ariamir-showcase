@@ -1,6 +1,6 @@
 # Roadmap to a stable Ariamir workspace
 
-**Reviewed 5 October 2026 · Current development line: 0.19**
+**Reviewed 16 October 2026 · Current development line: 0.19**
 
 Ariamir's next stages connect modernization, product integration and platform expansion. The goal is an extensible workspace that people can install, use, update and recover without losing project continuity or control over actions.
 
@@ -25,8 +25,8 @@ This phase builds on business modules, Knowledge, documents, model management an
 
 The work has four parts:
 
-1. **Establish the foundation.** Preserve existing behaviour and provide the runtime and developer tooling needed to build compatible capabilities. Substantial groundwork is implemented, with validation still open.
-2. **Prove integration.** Exercise a representative extension with synthetic data, then validate a real AI workload. The representative integration is the current focus; it is not yet a completed acceptance result.
+1. **Establish the foundation.** Preserve existing behaviour and provide the runtime and developer tooling needed to build compatible capabilities. Substantial groundwork is implemented and has been exercised end to end by the representative extension.
+2. **Prove integration.** Exercise a representative extension with synthetic data, then validate a real AI workload. The representative integration has been completed and accepted, including a 24-hour continuous run; the real workload pilot is in preparation.
 3. **Adopt selectively.** Evaluate capabilities in AI/data processing, Knowledge, research, model coordination, context, planning and vision. Keep existing implementations where changing them would not provide a justified benefit.
 4. **Harden the integrated release.** Validate long sessions, interruptions, installation, updates, restore and the interaction between changed and unchanged components.
 
