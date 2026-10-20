@@ -2,6 +2,10 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 2026-10-20 — darkFlash Iberia joins the partners
+
+- List darkFlash Iberia as a technology partner.
+
 ## 2026-10-16 — Representative integration accepted
 
 - Report the representative integration as completed and accepted, including an approved 24-hour continuous run, and the real workload pilot as the next step.
