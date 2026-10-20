@@ -8,6 +8,7 @@ Ariamir welcomes technically relevant hardware evaluation and sponsorship discus
 | --- | --- |
 | [MB Custom Things](https://www.etsy.com/shop/MBCustomThings) | Technology collaborator — custom 3D-printed components |
 | [Azken Muga](https://www.azken.com) | Technology partner |
+| [darkFlash Iberia](https://darkflash-iberia.com) | Technology partner |
 
 Partners are listed here once both sides approve public acknowledgement. Results obtained with partner-provided hardware are published in the [Hardware Compatibility Lab](../docs/hardware-lab.md), identified as such, once the hardware is installed and tested.
 
