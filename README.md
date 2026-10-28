@@ -8,7 +8,7 @@ Ariamir brings models, project knowledge, documents and supervised tools into on
 
 > **0.19 development line · Representative integration accepted · Real workload pilot in preparation**
 >
-> Reviewed 16 October 2026. Ariamir is an unfinished product. Implemented features, technical validation and a stable public release are different states.
+> Reviewed 28 October 2026. Ariamir is an unfinished product. Implemented features, technical validation and a stable public release are different states.
 
 [nebrae.com](https://nebrae.com) · [Modernization plan](docs/modernization-plan.md) · [Roadmap to 1.0](docs/roadmap.md) · [Current status](docs/current-status.md) · [Capabilities](docs/capabilities.md) · [Hardware Lab](docs/hardware-lab.md) · [Collaborate](partners/README.md)
 

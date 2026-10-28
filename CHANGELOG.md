@@ -2,6 +2,14 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 2026-10-28 — Status review: context, security, local inference and AMD
+
+- Review the current status as of 28 October 2026: accumulated development work merged into the main development line on 24 and 27 October; context management and security hardening implemented in development builds.
+- List what is in validation: a model menu that reflects the installed models, a configurable context window and AMD Radeon support on Windows.
+- Add the lab inference server (NVIDIA A40) to the Hardware Lab, with early, single-run observations of parallel agents, prompt-cache reuse and speculative decoding. These are not yet a published benchmark.
+- Note graphics-vendor independence (AMD Radeon on Windows) in the roadmap.
+- This documentation change announces no new product release, installer or public SDK.
+
 ## 2026-10-20 — darkFlash Iberia joins the partners
 
 - List darkFlash Iberia as a technology partner.

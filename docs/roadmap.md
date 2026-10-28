@@ -36,6 +36,8 @@ The work has four parts:
 
 Make operating-system requirements explicit and reduce remaining Windows assumptions across the product. Capabilities should clearly report whether the required backend, hardware and permissions are available.
 
+This also covers graphics-vendor independence: support for AMD Radeon cards on Windows is in development and awaits validation on real Radeon hardware.
+
 **Ready to move on when:** the core and its compatibility tests no longer depend on implicit Windows behaviour, and platform-specific limitations are identifiable and documented. This stage establishes portability; it does not itself announce working macOS or Linux editions.
 
 ## 0.21 — enable selected macOS and Linux configurations

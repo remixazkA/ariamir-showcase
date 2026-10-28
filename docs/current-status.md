@@ -1,6 +1,6 @@
 # Current development status
 
-**Reviewed 16 October 2026 · Ariamir 0.19 · Modernization and integration**
+**Reviewed 28 October 2026 · Ariamir 0.19 · Modernization and integration**
 
 Ariamir is modernizing how capabilities are developed and integrated while preserving the existing product. The **representative integration is complete**: a representative extension was built through the new development path, integrated into the product and accepted. The current focus is preparing a **real workload pilot** and hardening the integrated release.
 
@@ -23,16 +23,26 @@ Implemented means functionality exists in the reviewed development work. It does
 
 ## Completed since the previous review
 
-- **Representative integration accepted (10 October 2026).** The representative extension runs through the new development path inside the product.
-- **24-hour continuous run completed and approved.** Follow-up checks on long-run resource use continue as part of normal hardening.
-- **Core regression suite passing on the integrated build** (1,204 of 1,204 checks, 16 October 2026).
+- **Accumulated development work merged into the main development line** in two steps (24 and 27 October 2026), each after the full regression run passed on the integrated build.
+- **Context management in development builds.** Important rules and the current request are never summarized away; content recalled from memory, Knowledge or attachments informs the assistant but cannot give it instructions; expired conversation text is purged after 24 hours; long tasks keep versioned checkpoints so they can be resumed. Preparing the context for a request went from minutes to a fraction of a second in measurement.
+- **Security hardening.** Errors returned to connected clients no longer include local file paths; a case where an error could reveal the beginning of a password was closed; network folders and links are handled more strictly; operations that need the person's approval no longer touch the disk before it is given.
+- **Local inference in the lab.** Prompt-cache reuse now works for hybrid-architecture models, and speculative decoding roughly doubled generation throughput in early tests on the lab's data-centre GPU (see the [Hardware Lab](hardware-lab.md)).
+
+## In validation
+
+These changes are implemented on development branches and under independent review; they are not yet part of the main development line.
+
+- **Model menu that reflects the machine.** The chat's model menu lists the models actually installed, with their state (loaded, installed, not checked or cloud), instead of a fixed list.
+- **Configurable context window.** The person can choose the context window for each local model from the model menu; it applies the next time the model loads.
+- **AMD Radeon graphics on Windows.** Ariamir detects and measures graphics cards from any vendor, uses Radeon cards through Vulkan and reports clearly when a model has no build for that card. Validation on a real Radeon card (RX 9070 XT) is pending.
 
 ## Work in progress
 
-- Prepare the real workload pilot as a capability on the new development path.
-- Harden the integrated release: installation, permissions and platform protection.
-- Demonstrate continuity through updates, interruption, cancellation and restoration.
-- Continue cross-system QA, usability, accessibility and supported-environment testing.
+- Close the real workload pilot on short validation runs; a long continuous run is postponed.
+- Continue the compute, Knowledge ingestion, research and agent-coordination capabilities toward their validation criteria.
+- Evaluate controlling the local inference engine directly for parallel agents, keeping the current model manager for downloads during any transition.
+- Extend AMD support to local image and video workflows.
+- Harden the integrated release: installation, permissions, updates and platform protection.
 
 Development builds currently target Windows 11 (64-bit). Earlier successful checks remain evidence for their revisions; they do not establish completion of later work.
 
