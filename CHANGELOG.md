@@ -2,6 +2,14 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 2026-11-02 — Status review: evaluation, AAOS virtual office and research collaboration
+
+- Review development progress and independently audited milestone acceptance, with the remaining validation boundaries.
+- Introduce the simulated AAOS virtual office and its role in training and evaluation.
+- Describe the early agentic benchmark and local inference usage as observations, without claiming benchmark results.
+- Invite research and compute partners to support reproducible evaluation campaigns.
+- This documentation change announces no new product release, installer or public SDK.
+
 ## 2026-10-28 — Status review: context, security, local inference and AMD
 
 - Review the current status as of 28 October 2026: accumulated development work merged into the main development line on 24 and 27 October; context management and security hardening implemented in development builds.

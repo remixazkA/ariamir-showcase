@@ -6,9 +6,9 @@
 
 Ariamir brings models, project knowledge, documents and supervised tools into one workspace. It is built for people who want to work with their own information, review consequential actions and choose the capabilities their work needs.
 
-> **0.19 development line · Representative integration accepted · Real workload pilot in preparation**
+> **0.19 development line · Evaluation in progress · Real workload pilot in preparation**
 >
-> Reviewed 28 October 2026. Ariamir is an unfinished product. Implemented features, technical validation and a stable public release are different states.
+> Reviewed 2 November 2026. Ariamir is an unfinished product. Implemented features, technical validation and a stable public release are different states.
 
 [nebrae.com](https://nebrae.com) · [Modernization plan](docs/modernization-plan.md) · [Roadmap to 1.0](docs/roadmap.md) · [Current status](docs/current-status.md) · [Capabilities](docs/capabilities.md) · [Hardware Lab](docs/hardware-lab.md) · [Collaborate](partners/README.md)
 
@@ -102,6 +102,14 @@ The configuration panel illustrates the ability to describe a responsibility, ch
 
 *This earlier Fabric panel illustrates configuration; it does not demonstrate the new integration path or completed capability migration.*
 
+## AAOS — a virtual office for training and evaluation
+
+AAOS is a simulated company with 154 synthetic people, used as a training and evaluation environment for Ariamir. Ariamir takes a seat and is intended to see only what the person in that role would see. The environment is still in development; full application integration and effective assistance during a working day remain to be validated.
+
+![Overview of the simulated AAOS virtual office](media/screenshots/aaos-office-overview.png)
+
+[Explore the AAOS public showcase](https://github.com/remixazkA/aaos-empresa-virtual-entrenamiento).
+
 ## The Nebrae Collective website
 
 [nebrae.com](https://nebrae.com) presents Ariamir as a journey through a living neural network. Each chapter opens from a glass panel into an interactive world of its own, and the journey ends in a laboratory where the network keeps growing.
@@ -146,6 +154,8 @@ This repository is Ariamir's public showcase. It contains product descriptions, 
 Public descriptions focus on what people can do and what remains to be validated. Private plans, contracts, prompts, routing and permission logic, credentials, customer data and operational records remain outside this repository. See the [disclosure policy](docs/public-disclosure-policy.md) and [public system overview](docs/architecture-overview.md).
 
 ## Follow the work or collaborate
+
+We are developing evaluation methods for programming tasks and simulated office work. We welcome research and compute partners for systematic, reproducible campaigns with more variants and repetitions than the lab hardware allows.
 
 - Visit [nebrae.com](https://nebrae.com), Nebrae Collective's interactive website.
 - Follow the [dated status](docs/current-status.md), [changelog](CHANGELOG.md) and [roadmap](docs/roadmap.md).

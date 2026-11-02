@@ -1,12 +1,20 @@
 # Current development status
 
-**Reviewed 28 October 2026 · Ariamir 0.19 · Modernization and integration**
+**Reviewed 2 November 2026 · Ariamir 0.19 · Modernization and integration**
 
 Ariamir is modernizing how capabilities are developed and integrated while preserving the existing product. The **representative integration is complete**: a representative extension was built through the new development path, integrated into the product and accepted. The current focus is preparing a **real workload pilot** and hardening the integrated release.
 
 Broad capability migration, macOS/Linux support and stable-release acceptance have not been completed by this work.
 
 [Read the modernization plan](modernization-plan.md) · [See the roadmap to 1.0](roadmap.md)
+
+## Review of 2 November 2026
+
+- **Development validation.** Several milestones covering security limits, search, document extraction and module lifecycle were accepted after independent audit in late October. Automated testing continues across the development line; acceptance of these milestones does not establish release readiness.
+- **Supervised tools.** The catalogue contains about 200 tools, subject to per-project permissions and human approval where required. Inclusion in the catalogue does not establish availability or validated performance for every tool.
+- **AAOS virtual office.** A simulated company with 154 synthetic people is being developed as a training and evaluation environment. Ariamir takes a seat with a view limited to what the person in that role would see; full application integration and effective assistance during a working day remain to be validated. See the [public showcase](https://github.com/remixazkA/aaos-empresa-virtual-entrenamiento).
+- **Evaluation.** An early agentic benchmark compares configurations on real programming tasks using an independent oracle; it has 22 validated tasks and is not a published benchmark. Research and compute partners are sought for systematic, reproducible campaigns with more variants and repetitions.
+- **Local inference in the lab.** Between 28 October and 2 November, the lab's NVIDIA A40 handled more than 10,000 requests and generated about 8.6 million tokens. These figures describe usage, not task success; prompt-cache reuse improved in successive runs. They are early observations, not a benchmark.
 
 ## Implemented in development builds
 
