@@ -36,6 +36,13 @@ What stood out:
 - Speculative decoding with the model's own multi-token-prediction heads roughly doubled generation throughput without changing the output.
 - A 66,430-token prompt was processed in 85 seconds and answered correctly in a simple retrieval check.
 
+## A40 cooling and motherboard notes
+
+A [closer look at A40 cooling and a motherboard change](hardware-lab/a40-cooling-and-motherboard.md) documents three duct configurations and before/after telemetry. These are single-run observations; sealing also changed alongside the motherboard.
+
+![Cooling temperature observations](../media/hardware-lab/a40/cooling-temperature.svg)
+![Before and after throughput](../media/hardware-lab/a40/throughput.svg)
+
 ## AMD Radeon on Windows
 
 Support for AMD Radeon graphics is in development, starting with Vulkan. Validation on a real **AMD Radeon RX 9070 XT** is planned with an external tester; results will be published here once they are available.
