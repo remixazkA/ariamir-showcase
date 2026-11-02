@@ -2,6 +2,11 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 2026-11-02 — Hardware Lab: A40 cooling and motherboard notes
+
+- Add single-run cooling and motherboard observations, charts and photographs.
+- This documentation change announces no new product release, installer or public SDK.
+
 ## 2026-11-02 — Status review: evaluation, AAOS virtual office and research collaboration
 
 - Review development progress and independently audited milestone acceptance, with the remaining validation boundaries.

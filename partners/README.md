@@ -14,6 +14,8 @@ We also welcome research and compute partners interested in systematic, reproduc
 
 Partners are listed here once both sides approve public acknowledgement. Results obtained with partner-provided hardware are published in the [Hardware Compatibility Lab](../docs/hardware-lab.md), identified as such, once the hardware is installed and tested.
 
+**Partner hardware notes:** [A40 cooling and motherboard observations](../docs/hardware-lab/a40-cooling-and-motherboard.md) include a printed adapter by MB Custom Things.
+
 ## Areas of interest
 
 - GPUs and AI accelerators
