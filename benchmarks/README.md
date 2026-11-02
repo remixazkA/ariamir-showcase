@@ -8,6 +8,8 @@ Current benchmark tracks:
 - [`document-engine.md`](document-engine.md) — document quality, fidelity and latency.
 - [`hardware.md`](hardware.md) — component and workstation compatibility/performance.
 
+An early agentic benchmark uses an independent oracle and 22 validated real programming tasks to compare configurations; it is not a published benchmark.
+
 ## Publication standard
 
 A benchmark result should not be published merely because a number is available. Public results should state the tested configuration, workload, run conditions, metric definition and any material caveats.

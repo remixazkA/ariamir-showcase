@@ -2,6 +2,8 @@
 
 Ariamir welcomes technically relevant hardware evaluation and sponsorship discussions.
 
+We also welcome research and compute partners interested in systematic, reproducible evaluation campaigns for Ariamir, with more variants and repetitions than the lab hardware allows.
+
 ## Current partners
 
 | Partner | Role |
