@@ -108,7 +108,7 @@ AAOS is a simulated company with 154 synthetic people, used as a training and ev
 
 ![Overview of the simulated AAOS virtual office](media/screenshots/aaos-office-overview.png)
 
-[Explore the AAOS public showcase](https://github.com/remixazkA/aaos-empresa-virtual-entrenamiento).
+[Explore the AAOS public showcase](https://github.com/remixazkA/aaos-gym).
 
 ## The Nebrae Collective website
 
