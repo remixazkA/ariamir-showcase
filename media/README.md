@@ -23,4 +23,9 @@ Captured from the public website [nebrae.com](https://nebrae.com) on 16 October 
 
 ## Interface design preview
 
-[Thirteen captures](screenshots/interface-preview/) taken on 13 November 2026 from a navigable design prototype of the new interface, used in [What's new — November 2026](../docs/whats-new-2026-11.md). They use sample data and example names, show Spanish interface text, and do not show an installed release.
+All captures below were taken on 13 November 2026 from a navigable design prototype of the new interface. They use sample data and example names, show Spanish interface text, and do not show an installed release. They are used in the [interface tour](../docs/interface-tour.md) and in [What's new — November 2026](../docs/whats-new-2026-11.md).
+
+- [screenshots/interface/](screenshots/interface/): 24 full-window captures (1440 × 900 at twice the pixel density, a few taller), one or more per zone: conversation, Fabric, start and search, projects, Knowledge, Automations, Pending, browser, Models, Extensions, This computer, Settings, Statistics, documents and three themes. File names start with the order of the tour.
+- [screenshots/interface-preview/](screenshots/interface-preview/): 46 close-ups of single functions (menus, cards, panels and dialogs), the first 13 from the What's new page and 33 more for the tour.
+
+Each capture is shown with its description in the tour. None is a benchmark result or a statement that a feature has completed validation.

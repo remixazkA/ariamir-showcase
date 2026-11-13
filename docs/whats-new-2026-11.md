@@ -4,7 +4,7 @@
 
 > **Design preview.** Every image on this page comes from a navigable design prototype of the new Ariamir interface, not from an installed release. The prototype runs on sample data: project names, conversations, GPU names, memory figures, model names and times are examples. The interface text is shown in Spanish, as captured. Nothing here is a benchmark result, a guaranteed capacity or a statement that a feature has completed validation. See the [dated status](current-status.md) and the [disclosure policy](public-disclosure-policy.md).
 
-The new interface is documented in a user manual that follows the same prototype. The pictures below show what has changed in how Ariamir looks and what it asks of you.
+The new interface is documented in a user manual that follows the same prototype. The pictures below show what has changed in how Ariamir looks and what it asks of you. For the whole interface, zone by zone, with full-window captures, see the [interface tour](interface-tour.md).
 
 ## The workspace
 
