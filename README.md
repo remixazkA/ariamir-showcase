@@ -80,38 +80,32 @@ These capabilities exist in development builds. The table describes their purpos
 
 Explore the [full capability catalog](docs/capabilities.md) and [public product overview](docs/overview.md).
 
-## Inside Ariamir — work in progress
+## Inside Ariamir — the new interface
 
-These screenshots were first published in September 2026. They document earlier development sessions, not the current modernization build. The existing visual identity is retained while the product evolves.
+A design preview of the new interface, captured on 13 November 2026 from a navigable prototype with sample data. It is not an installed release, and the interface text is shown in Spanish. Project names, model names, GPUs and figures are examples.
 
-### Agent Fabric
+[![Design preview of the Ariamir workspace: projects and chats on the left, a conversation with a permission card in the middle, and the conversation panel with context in tokens and the steps taken on the right](media/screenshots/interface-preview/workspace-overview.png)](docs/whats-new-2026-11.md)
 
-[![Historical Agent Fabric development view: graph, model assignments and resource panels](media/screenshots/fabric-wip.png)](media/screenshots/fabric-wip.png)
-
-*Historical WIP capture. Model assignments and resource figures describe that session; they are not benchmark results or guaranteed capacity.*
-
-### Modular and configurable
-
-The configuration panel illustrates the ability to describe a responsibility, choose capability areas and select models and instances. Visible controls do not establish that every combination has passed end-to-end validation.
+*The workspace: sidebar, conversation and conversation panel. When Ariamir needs permission to run a command, a card explains what it wants and offers four choices.*
 
 <p align="center">
-  <a href="media/screenshots/fabric-add-capability-wip.png">
-    <img src="media/screenshots/fabric-add-capability-wip.png" alt="Historical Fabric Add capability configuration panel — work in progress" width="420">
-  </a>
+  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/fabric-orchestration-roles.png" alt="Design preview: a Fabric orchestration with five roles, their models, the GPU each runs on, lanes and current state" width="49%"></a>
+  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/question-with-recommended-option.png" alt="Design preview: a question card inside the conversation with a recommended answer" width="49%"></a>
 </p>
-
-*This earlier Fabric panel illustrates configuration; it does not demonstrate the new integration path or completed capability migration.*
-
-## What's new — November 2026
-
-A design preview of the new interface, captured on 13 November 2026 from a navigable prototype with sample data. It is not an installed release, and the interface text is shown in Spanish. New in the preview: Fabric as an orchestration of roles, an office assistant with explicit sources and consent, questions that Ariamir asks inside the conversation, a response style per project, and GPUs and models drawn from what the machine reports.
-
 <p align="center">
-  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/fabric-orchestration-roles.png" alt="Design preview: a Fabric orchestration with five roles, their models, GPUs and state" width="49%"></a>
-  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/office-assistant-sources.png" alt="Design preview: office assistant sources, retention periods and learned suggestions" width="49%"></a>
+  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/model-list.png" alt="Design preview: the model list with what each model reads, where it is loaded, engine, state and size on disk" width="49%"></a>
+  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/gpu-memory-meters.png" alt="Design preview: memory meters per GPU, system memory and the disk that holds the models" width="49%"></a>
+</p>
+<p align="center">
+  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/office-assistant-sources.png" alt="Design preview: office assistant sources with retention periods, and learned suggestions to approve or discard" width="49%"></a>
+  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/response-style-project.png" alt="Design preview: the response style of a project, from Concise to Explanatory, and its tone" width="49%"></a>
+</p>
+<p align="center">
+  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/fabric-roles-in-thread.png" alt="Design preview: roles working, queued and done inside a Fabric conversation" width="49%"></a>
+  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/new-conversation-defaults.png" alt="Design preview: defaults for new conversations: mode, model, thinking and minimum certainty" width="49%"></a>
 </p>
 
-*Design preview with sample data; not a release and not a validation result.* [See all 13 captures](docs/whats-new-2026-11.md).
+*Fabric as an orchestration of roles, questions asked inside the conversation, models and GPUs drawn from what the machine reports, an office assistant with explicit sources and consent, and a response style per project. Design preview with sample data; not a release and not a validation result.* [See every capture with its description](docs/whats-new-2026-11.md).
 
 ## AAOS — a virtual office for training and evaluation
 
