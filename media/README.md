@@ -21,6 +21,10 @@ Captured from the public website [nebrae.com](https://nebrae.com) on 16 October 
 - [Chapter panels](website/nebrae-chapters.jpg): the journey through the neural network, with the glass panels that open each chapter.
 - [Closing scene](website/nebrae-closing.jpg): the laboratory and the network at the end of the journey.
 
+## Interface design preview
+
+[Thirteen captures](screenshots/interface-preview/) taken on 13 November 2026 from a navigable design prototype of the new interface, used in [What's new — November 2026](../docs/whats-new-2026-11.md). They use sample data and example names, show Spanish interface text, and do not show an installed release.
+
 ## Published screenshots
 
 Both captures below were first published in September 2026. They illustrate earlier development sessions and do not demonstrate the current modernization and integration work.

@@ -2,6 +2,13 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 2026-11-13 — What's new: captures of the new interface (design preview)
+
+- Add a "What's new — November 2026" page and a README section with 13 captures of the new interface, taken from a navigable design prototype with sample data.
+- Cover Fabric orchestration and roles, the office assistant's sources and consent, questions inside the conversation, the per-project response style, and GPUs and models drawn from the machine.
+- Label every capture as a design preview: it is not an installed release and not a validation result.
+- This documentation change announces no new product release, installer or public SDK.
+
 ## 2026-11-02 — Hardware Lab: A40 cooling and motherboard notes
 
 - Add single-run cooling and motherboard observations, charts and photographs.

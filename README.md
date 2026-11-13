@@ -10,7 +10,7 @@ Ariamir brings models, project knowledge, documents and supervised tools into on
 >
 > Reviewed 2 November 2026. Ariamir is an unfinished product. Implemented features, technical validation and a stable public release are different states.
 
-[nebrae.com](https://nebrae.com) · [Modernization plan](docs/modernization-plan.md) · [Roadmap to 1.0](docs/roadmap.md) · [Current status](docs/current-status.md) · [Capabilities](docs/capabilities.md) · [Hardware Lab](docs/hardware-lab.md) · [Collaborate](partners/README.md)
+[nebrae.com](https://nebrae.com) · [Modernization plan](docs/modernization-plan.md) · [Roadmap to 1.0](docs/roadmap.md) · [Current status](docs/current-status.md) · [Capabilities](docs/capabilities.md) · [Hardware Lab](docs/hardware-lab.md) · [What's new](docs/whats-new-2026-11.md) · [Collaborate](partners/README.md)
 
 ## What “0.19” means
 
@@ -101,6 +101,17 @@ The configuration panel illustrates the ability to describe a responsibility, ch
 </p>
 
 *This earlier Fabric panel illustrates configuration; it does not demonstrate the new integration path or completed capability migration.*
+
+## What's new — November 2026
+
+A design preview of the new interface, captured on 13 November 2026 from a navigable prototype with sample data. It is not an installed release, and the interface text is shown in Spanish. New in the preview: Fabric as an orchestration of roles, an office assistant with explicit sources and consent, questions that Ariamir asks inside the conversation, a response style per project, and GPUs and models drawn from what the machine reports.
+
+<p align="center">
+  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/fabric-orchestration-roles.png" alt="Design preview: a Fabric orchestration with five roles, their models, GPUs and state" width="49%"></a>
+  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/office-assistant-sources.png" alt="Design preview: office assistant sources, retention periods and learned suggestions" width="49%"></a>
+</p>
+
+*Design preview with sample data; not a release and not a validation result.* [See all 13 captures](docs/whats-new-2026-11.md).
 
 ## AAOS — a virtual office for training and evaluation
 
