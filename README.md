@@ -84,28 +84,28 @@ Explore the [full capability catalog](docs/capabilities.md) and [public product 
 
 A design preview of the new interface, captured on 13 November 2026 from a navigable prototype with sample data. It is not an installed release, and the interface text is shown in Spanish. Project names, model names, GPUs and figures are examples.
 
-[![Design preview of the Ariamir workspace: projects and chats on the left, a conversation with a permission card in the middle, and the conversation panel with context in tokens and the steps taken on the right](media/screenshots/interface-preview/workspace-overview.png)](docs/whats-new-2026-11.md)
+[![Design preview of the Ariamir workspace in Direct mode: projects and chats on the left, a conversation with a permission card in the middle, and the conversation panel with context in tokens and the steps taken on the right](media/screenshots/interface/01-conversation-direct-steps-permission.png)](docs/interface-tour.md)
 
 *The workspace: sidebar, conversation and conversation panel. When Ariamir needs permission to run a command, a card explains what it wants and offers four choices.*
 
 <p align="center">
-  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/fabric-orchestration-roles.png" alt="Design preview: a Fabric orchestration with five roles, their models, the GPU each runs on, lanes and current state" width="49%"></a>
-  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/question-with-recommended-option.png" alt="Design preview: a question card inside the conversation with a recommended answer" width="49%"></a>
+  <a href="docs/interface-tour.md"><img src="media/screenshots/interface/03-conversation-fabric-roles.png" alt="Design preview: A conversation in Fabric, with the orchestration shown as numbered parts and roles" width="49%"></a>
+  <a href="docs/interface-tour.md"><img src="media/screenshots/interface/04-fabric-orchestration.png" alt="Design preview: The Edit orchestration window: memory per GPU and five roles with their models" width="49%"></a>
 </p>
 <p align="center">
-  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/model-list.png" alt="Design preview: the model list with what each model reads, where it is loaded, engine, state and size on disk" width="49%"></a>
-  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/gpu-memory-meters.png" alt="Design preview: memory meters per GPU, system memory and the disk that holds the models" width="49%"></a>
+  <a href="docs/interface-tour.md"><img src="media/screenshots/interface/10-knowledge-map.png" alt="Design preview: The Knowledge map: clusters of notes joined by relations" width="49%"></a>
+  <a href="docs/interface-tour.md"><img src="media/screenshots/interface/12-pending.png" alt="Design preview: Pending: permission requests and proposals waiting for a decision" width="49%"></a>
 </p>
 <p align="center">
-  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/office-assistant-sources.png" alt="Design preview: office assistant sources with retention periods, and learned suggestions to approve or discard" width="49%"></a>
-  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/response-style-project.png" alt="Design preview: the response style of a project, from Concise to Explanatory, and its tone" width="49%"></a>
+  <a href="docs/interface-tour.md"><img src="media/screenshots/interface/13-models.png" alt="Design preview: Models: meters per GPU, system memory and disk, and the model list" width="49%"></a>
+  <a href="docs/interface-tour.md"><img src="media/screenshots/interface/17-office-assistant.png" alt="Design preview: Settings: the office assistant sources, retention and learned suggestions" width="49%"></a>
 </p>
 <p align="center">
-  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/fabric-roles-in-thread.png" alt="Design preview: roles working, queued and done inside a Fabric conversation" width="49%"></a>
-  <a href="docs/whats-new-2026-11.md"><img src="media/screenshots/interface-preview/new-conversation-defaults.png" alt="Design preview: defaults for new conversations: mode, model, thinking and minimum certainty" width="49%"></a>
+  <a href="docs/interface-tour.md"><img src="media/screenshots/interface/19-document-compare.png" alt="Design preview: A document beside the conversation, comparing two versions in green and red" width="49%"></a>
+  <a href="docs/interface-tour.md"><img src="media/screenshots/interface/22-theme-ember.png" alt="Design preview: The start screen in the dark Ember theme" width="49%"></a>
 </p>
 
-*Fabric as an orchestration of roles, questions asked inside the conversation, models and GPUs drawn from what the machine reports, an office assistant with explicit sources and consent, and a response style per project. Design preview with sample data; not a release and not a validation result.* [See every capture with its description](docs/whats-new-2026-11.md).
+*Design preview with sample data; not a release and not a validation result.* [Take the full tour: 24 full-window captures and 33 close-ups, zone by zone](docs/interface-tour.md), or read the shorter [What's new — November 2026](docs/whats-new-2026-11.md).
 
 ## AAOS — a virtual office for training and evaluation
 
@@ -154,7 +154,7 @@ The lab's scope includes compatibility, latency, memory pressure and workload su
 
 ## Public scope
 
-This repository is Ariamir's public showcase. It contains product descriptions, historical WIP media, roadmap and hardware-validation material. It does not distribute the application, proprietary source or internal architecture.
+This repository is Ariamir's public showcase. It contains product descriptions, interface previews, roadmap and hardware-validation material. It does not distribute the application, proprietary source or internal architecture.
 
 Public descriptions focus on what people can do and what remains to be validated. Private plans, contracts, prompts, routing and permission logic, credentials, customer data and operational records remain outside this repository. See the [disclosure policy](docs/public-disclosure-policy.md) and [public system overview](docs/architecture-overview.md).
 

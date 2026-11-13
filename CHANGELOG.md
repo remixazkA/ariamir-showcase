@@ -2,6 +2,13 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 2026-11-13 — Interface tour: full-window captures of the new interface (design preview)
+
+- Add an interface tour with 24 full-window captures and 33 close-ups of the new interface, zone by zone, taken from a navigable design prototype with sample data, and make it the interface section of the README.
+- Remove the earlier Fabric screenshots, which showed the previous interface.
+- Label every capture as a design preview: it is not an installed release and not a validation result.
+- This documentation change announces no new product release, installer or public SDK.
+
 ## 2026-11-13 — What's new: captures of the new interface (design preview)
 
 - Add a "What's new — November 2026" page and a README section with 13 captures of the new interface, taken from a navigable design prototype with sample data.
