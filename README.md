@@ -88,10 +88,26 @@ A design preview of the new interface, captured on 13 November 2026 from a navig
 
 *The workspace: sidebar, conversation and conversation panel. When Ariamir needs permission to run a command, a card explains what it wants and offers four choices.*
 
+### Agent Fabric
+
+[![Design preview of a conversation in Fabric mode: the answer in the middle and, on the right, the orchestration split into four numbered parts, each with its state, difficulty and the role that runs it](media/screenshots/interface/03-conversation-fabric-roles.png)](media/screenshots/interface/03-conversation-fabric-roles.png)
+
+*In Fabric, a fixed group of roles shares the work. The conversation panel shows the orchestration as numbered parts: what each one does, its state, its difficulty and the role that runs it, including a part that moved up to a stronger role. A live line under the answer counts the roles working, queued and done.*
+
+### Modular and configurable
+
+[![Design preview of the Edit orchestration window: memory per GPU and system memory split into models, role lanes, Direct lanes and other programs, and a table of five roles with their model, where each runs, lanes and the hardest task each receives, with Add role and Apply changes](media/screenshots/interface/04-fabric-orchestration.png)](media/screenshots/interface/04-fabric-orchestration.png)
+
+*The orchestration is edited in one window: each role has its model, where it runs, its lanes and the hardest task it receives, and the memory of every GPU and of the system is shown before anything changes. Roles can be added, and nothing is applied until you confirm.*
+
 <p align="center">
-  <a href="docs/interface-tour.md"><img src="media/screenshots/interface/03-conversation-fabric-roles.png" alt="Design preview: A conversation in Fabric, with the orchestration shown as numbered parts and roles" width="49%"></a>
-  <a href="docs/interface-tour.md"><img src="media/screenshots/interface/04-fabric-orchestration.png" alt="Design preview: The Edit orchestration window: memory per GPU and five roles with their models" width="49%"></a>
+  <a href="media/screenshots/interface-preview/fabric-role-editor.png"><img src="media/screenshots/interface-preview/fabric-role-editor.png" alt="Design preview: the editor of one role: what it does and which model it uses, automatic or fixed, with the memory each choice takes" width="420"></a>
 </p>
+
+*Each role describes its responsibility and its model: automatic, or fixed to an installed model, with the memory that model and every extra lane take.*
+
+### More of the new interface
+
 <p align="center">
   <a href="docs/interface-tour.md"><img src="media/screenshots/interface/10-knowledge-map.png" alt="Design preview: The Knowledge map: clusters of notes joined by relations" width="49%"></a>
   <a href="docs/interface-tour.md"><img src="media/screenshots/interface/12-pending.png" alt="Design preview: Pending: permission requests and proposals waiting for a decision" width="49%"></a>
