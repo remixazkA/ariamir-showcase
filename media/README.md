@@ -24,5 +24,3 @@ Captured from the public website [nebrae.com](https://nebrae.com) on 16 October 
 ## Interface design preview
 
 [Thirteen captures](screenshots/interface-preview/) taken on 13 November 2026 from a navigable design prototype of the new interface, used in [What's new — November 2026](../docs/whats-new-2026-11.md). They use sample data and example names, show Spanish interface text, and do not show an installed release.
-
-- [Fabric — Add capability, work in progress](screenshots/fabric-add-capability-wip.png): a real configuration-panel capture showing a task description, capability categories, automatic or manual model selection and instance controls. Original resolution: 497 × 899. This illustrates modular configuration under development; it does not certify that every displayed option or combination is fully validated.
