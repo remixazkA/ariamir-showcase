@@ -2,6 +2,15 @@
 
 All notable public-showcase changes are recorded here. Private Ariamir development changes are intentionally not mirrored one-for-one.
 
+## 2026-11-18 — Status review and interface update (design preview)
+
+- Add an "Update — 18 November 2026" section to the What's new page with eight new captures of the interface in the dark theme: orchestration templates and roles, lanes with their own context, Advanced engine settings, testing two configurations, the "This computer" panel, permissions per project and the knowledge map.
+- Review the current status as of 18 November 2026: the interface work is in validation on a development branch and is not part of the installed release.
+- Add measured lab observations with their period and hardware: A40 usage between 28 October and 13 November and between 8 and 15 November, and single robustness measurements from 5 to 13 November. They are early observations, not a benchmark.
+- Introduce SuperMoE, the multi-model review panel, and link to its own showcase.
+- Label every capture as a design preview: it is not an installed release and not a validation result.
+- This documentation change announces no new product release, installer or public SDK.
+
 ## 2026-11-13 — Interface tour: full-window captures of the new interface (design preview)
 
 - Add an interface tour with 24 full-window captures and 33 close-ups of the new interface, zone by zone, taken from a navigable design prototype with sample data, and make it the interface section of the README.

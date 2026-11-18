@@ -48,9 +48,9 @@ Details:
 
 *The Permissions menu: the project's level (here Prudent), and what it means for commands, files, instructions and internet, with a button to change the project's permissions.*
 
-![The context block: a bar split by source, token counts, a Summarize button and applied memory](../media/screenshots/interface-preview/context-breakdown.png)
+![The context block: a bar split by source, token counts including memory, instructions by origin, a Summarize button with the message count and applied memory](../media/screenshots/interface-preview/context-breakdown.png)
 
-*The Context block: a bar and the parts that make it up, in tokens (conversation, Knowledge, files, instructions), a button to summarize what came before and the number of memories applied.*
+*The Context block: a bar and the parts that make it up, in tokens (conversation, Knowledge, files, instructions and memory), a link to the instructions by origin, a button to summarize what came before (next to the number of messages) and the number of memories applied.*
 
 ![The Changes block: one new file and two changed files with their added and removed lines, View and Undo buttons](../media/screenshots/interface-preview/changes-panel.png)
 
@@ -76,9 +76,9 @@ Details:
 
 *Before switching to Fabric: which models would be reloaded and with how many lanes, what that takes from the GPU and from system memory, labelled as a calculation, and the choice to load and switch or cancel.*
 
-![Three ways to resolve Fabric not fitting on the GPU, and the other programs using the computer](../media/screenshots/interface-preview/fabric-gpu-options.png)
+![Three ways to resolve Fabric not fitting on the GPU, the priority order of the models for GPU memory, and the other programs using the computer](../media/screenshots/interface-preview/fabric-gpu-options.png)
 
-*If Fabric does not fit on the GPU: use only the GPU (what does not fit waits its turn), also use system memory, or keep the roles as they are. Below, the other applications using the computer.*
+*If Fabric does not fit on the GPU: use only the GPU (what does not fit waits its turn), also use system memory, or keep the roles as they are. Below, the order in which models get GPU memory first, with the memory each one takes, and the other applications using the computer.*
 
 ![A request to load a model on a second GPU that reports it does not fit, with the option to load with a smaller context](../media/screenshots/interface-preview/load-model-does-not-fit.png)
 
@@ -220,9 +220,9 @@ Details:
 
 Details:
 
-![An open module: version, tools and what it can do, with Update and Remove](../media/screenshots/interface-preview/module-open.png)
+![An open module: version, tools, what it can do, a new-permission notice for an update, and Remove](../media/screenshots/interface-preview/module-open.png)
 
-*An open module: its version, its tools and what it is allowed to do, with Update and Remove.*
+*An open module: its version and tools, whether its signature was checked, what it may do (folders, internet, programs on the computer) and a notice that a newer version asks for a new permission, with an Update button that is never pressed automatically, and Remove.*
 
 ## This computer
 
@@ -258,17 +258,13 @@ Details:
 
 *A delivered document opened next to the conversation, here comparing version 1 with version 2: the header says how many lines were added and removed, added lines are green and removed ones red.*
 
-![Selecting text in a document and asking for a change in the box below](../media/screenshots/interface-preview/ask-change-on-selection.png)
+![The writing box with the document named, the quoted passage and the requested change typed underneath](../media/screenshots/interface-preview/ask-change-on-selection.png)
 
-*Asking for a change on a selection: the chosen passage is quoted in the writing box and the request is typed underneath.*
+*Asking for a change on a selection: the document is named above the box, the chosen passage is quoted in it and the request is typed underneath.*
 
 ## Themes
 
-The interface has four themes: a dark neutral one, a light one and two dark ones with an accent colour. The captures below show three of them.
-
-![Design preview: a conversation in the light Paper theme](../media/screenshots/interface/21-theme-paper.png)
-
-*Paper, a light theme.*
+The interface has four themes. The captures below show two of the dark ones, each with an accent colour.
 
 ![Design preview: the start screen in the dark Ember theme with an amber accent](../media/screenshots/interface/22-theme-ember.png)
 

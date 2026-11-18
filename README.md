@@ -82,6 +82,8 @@ Explore the [full capability catalog](docs/capabilities.md) and [public product 
 
 ## Inside Ariamir — the new interface
 
+**New on 18 November 2026:** orchestration by team (roles and templates), lanes per GPU with their own context, fine engine settings, a test view for two configurations, a "This computer" panel, permissions per project and a knowledge map. All are in validation on a development branch. See the [18 November update](docs/whats-new-2026-11.md#update--18-november-2026).
+
 A design preview of the new interface, captured on 13 November 2026 from a navigable prototype with sample data. It is not an installed release, and the interface text is shown in Spanish. Project names, model names, GPUs and figures are examples.
 
 [![Design preview of the Ariamir workspace in Direct mode: projects and chats on the left, a conversation with a permission card in the middle, and the conversation panel with context in tokens and the steps taken on the right](media/screenshots/interface/01-conversation-direct-steps-permission.png)](docs/interface-tour.md)
@@ -101,7 +103,7 @@ A design preview of the new interface, captured on 13 November 2026 from a navig
 *The orchestration is edited in one window: each role has its model, where it runs, its lanes and the hardest task it receives, and the memory of every GPU and of the system is shown before anything changes. Roles can be added, and nothing is applied until you confirm.*
 
 <p align="center">
-  <a href="media/screenshots/interface-preview/fabric-role-editor.png"><img src="media/screenshots/interface-preview/fabric-role-editor.png" alt="Design preview: the editor of one role: what it does and which model it uses, automatic or fixed, with the memory each choice takes" width="420"></a>
+  <a href="media/screenshots/interface-preview/fabric-role-editor.png"><img src="media/screenshots/interface-preview/fabric-role-editor.png" alt="Design preview: the editor of one role: what it does, what it uses, the difficulty of task it receives with a memory estimate for its model, and the lanes it sits in" width="420"></a>
 </p>
 
 *Each role describes its responsibility and its model: automatic, or fixed to an installed model, with the memory that model and every extra lane take.*
@@ -130,6 +132,8 @@ AAOS is a simulated company with 154 synthetic people, used as a training and ev
 ![Overview of the simulated AAOS virtual office](media/screenshots/aaos-office-overview.png)
 
 [Explore the AAOS public showcase](https://github.com/remixazkA/aaos-gym).
+
+SuperMoE, our multi-model review panel (a research tool, in development), has its own showcase: https://github.com/remixazkA/supermoe-showcase
 
 ## The Nebrae Collective website
 

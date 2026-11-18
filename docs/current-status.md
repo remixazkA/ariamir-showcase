@@ -1,6 +1,6 @@
 # Current development status
 
-**Reviewed 2 November 2026 · Ariamir 0.19 · Modernization and integration**
+**Reviewed 18 November 2026 · Ariamir 0.19 · Modernization and integration**
 
 Ariamir is modernizing how capabilities are developed and integrated while preserving the existing product. The **representative integration is complete**: a representative extension was built through the new development path, integrated into the product and accepted. The current focus is preparing a **real workload pilot** and hardening the integrated release.
 
@@ -8,13 +8,22 @@ Broad capability migration, macOS/Linux support and stable-release acceptance ha
 
 [Read the modernization plan](modernization-plan.md) · [See the roadmap to 1.0](roadmap.md)
 
+## Review of 18 November 2026
+
+- **New interface (in validation).** The interface work since 13 November is on a development branch and under independent review; it is not part of the installed release. It covers orchestration by team (roles and templates), lanes per GPU with their own context, fine engine settings (Advanced), a Test view that compares two configurations on memory and speed, a This computer panel, permissions per project, a knowledge map and the office assistant. See the [captures](whats-new-2026-11.md) (design preview, sample data). Capacity, speed and accuracy on real workloads remain to be validated.
+- **Installed version.** The Ariamir installed on the lab computer follows the main development line and is updated, with a backup, after independent review. The new interface above is not in it yet. Development branch and installation are reported separately.
+- **SuperMoE (research tool).** SuperMoE, our multi-model review panel (a research tool, in development), has its own showcase: https://github.com/remixazkA/supermoe-showcase
+- **Local inference in the lab.** Between 28 October and 13 November, the lab's NVIDIA A40 handled 104,064 requests and generated about 39.3 million tokens. Between 8 and 15 November it worked 129 of 167 hours, generating 13.6 million tokens and reading 397 million. In that same week (8-15 November 2026), on the NVIDIA A40 (48 GB), running 12 workers at once gave about 14% less generation than running 6, for our workload; this is an early observation. These figures describe usage on the lab's hardware, not task success; they are not a benchmark.
+- **Robustness checks (5-13 November).** The tool bridge opened on every cold start in 45 of 45 attempts (earlier, about one in four failed). A stress run of 200 cycles that stop the worker, the engine and the server left no orphan processes. Importing 1,000 documents with 10 interruptions lost none, and 100 large tasks in a row completed without failure. The tool descriptions sent to the model became 17.9% shorter per request. These are single measurements on the lab computer, not a benchmark.
+- **Practical limit.** The limit that matters is GPU memory, not hours of use: with the working model loaded, a second configuration for comparison, or larger models for tuning, do not fit beside it.
+
 ## Review of 2 November 2026
 
-- **Development validation.** Several milestones covering security limits, search, document extraction and module lifecycle were accepted after independent audit in late October. Automated testing continues across the development line; acceptance of these milestones does not establish release readiness.
+- **Development validation.** Work on security limits, search, document extraction and module lifecycle was accepted after independent audit in late October. Automated testing continues across the development line; acceptance of these milestones does not establish release readiness.
 - **Supervised tools.** The catalogue contains about 200 tools, subject to per-project permissions and human approval where required. Inclusion in the catalogue does not establish availability or validated performance for every tool.
 - **AAOS virtual office.** A simulated company with 154 synthetic people is being developed as a training and evaluation environment. Ariamir takes a seat with a view limited to what the person in that role would see; full application integration and effective assistance during a working day remain to be validated. See the [public showcase](https://github.com/remixazkA/aaos-gym).
 - **Evaluation.** An early agentic benchmark compares configurations on real programming tasks using an independent oracle; it has 22 validated tasks and is not a published benchmark. Research and compute partners are sought for systematic, reproducible campaigns with more variants and repetitions.
-- **Local inference in the lab.** Between 28 October and 2 November, the lab's NVIDIA A40 handled more than 10,000 requests and generated about 8.6 million tokens. These figures describe usage, not task success; prompt-cache reuse improved in successive runs. They are early observations, not a benchmark.
+- **Local inference in the lab.** Between 28 October and 2 November, the lab's NVIDIA A40 handled more than 10,000 requests and generated about 8.6 million tokens (superseded by the 18 November figures above). These figures describe usage, not task success; prompt-cache reuse improved in successive runs. They are early observations, not a benchmark.
 
 ## Implemented in development builds
 
@@ -62,7 +71,7 @@ Local image/video workflows remain dependent on installed runtimes and models. E
 
 ## Evidence and availability
 
-This snapshot was checked against current development records alongside the modernization plan. Planning documents describe intended scope; current implementation and validation records determine what can be reported as done. Internal task labels are not used as a substitute for explaining product progress.
+This snapshot was reviewed on 18 November 2026 against current development records alongside the modernization plan. Planning documents describe intended scope; current implementation and validation records determine what can be reported as done. Internal task labels are not used as a substitute for explaining product progress.
 
 The running installation, a development branch and a release candidate may differ. No new installer, public SDK or stable release is announced by this documentation update. Existing screenshots are historical development captures, not proof of the current integration result.
 
