@@ -133,7 +133,11 @@ AAOS is a simulated company with 154 synthetic people, used as a training and ev
 
 [Explore the AAOS public showcase](https://github.com/remixazkA/aaos-gym).
 
-SuperMoE, our multi-model review panel (a research tool, in development), has its own showcase: https://github.com/remixazkA/supermoe-showcase
+## How the code is reviewed — SuperMoE
+
+Besides its automated tests, Ariamir's code is reviewed by **SuperMoE**, our multi-model review panel (a research tool, in development). Several open-weight models answer the same question about the code blind, every quote they cite is checked against the real files, and the panel itself is measured on whether it finds real defects.
+
+In its latest battery (19 November 2026: 28 rounds with one line changed on purpose and 8 untouched controls), a single reviewer found 20 of the 28 planted defects with no false alarms, and three voices that vote found 24, with one false alarm and one dubious, at 71 GPU-seconds per round against 56. Method, data and limits are in the [SuperMoE showcase](https://github.com/remixazkA/supermoe-showcase).
 
 ## The Nebrae Collective website
 
